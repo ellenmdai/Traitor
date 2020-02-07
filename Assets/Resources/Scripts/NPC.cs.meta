@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bbe3a1fa8d3b54fae846a5c9d1d2ef55
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - redPlayer: {fileID: 21300000, guid: e373a17b450f9417ab9a7161c6ca7e96, type: 3}
+  - bluePlayer: {fileID: 21300000, guid: f3a7b7a40d7774bf587d0a9c35caa6c4, type: 3}
+  - greenPlayer: {fileID: 21300000, guid: 4ef221a3eab784b58b811442c6b9edf9, type: 3}
+  - yellowPlayer: {fileID: 21300000, guid: f6cc8cba3b06a4b7dab07cb00c9b4b34, type: 3}
+  - redNPC: {fileID: 21300000, guid: 4a8ac06680b7544749daac51396ad414, type: 3}
+  - blueNPC: {fileID: 21300000, guid: 751d6baca97754873a29306432201cde, type: 3}
+  - greenNPC: {fileID: 21300000, guid: fc5ac4b7a699845d48e38b88a4bd9032, type: 3}
+  - yellowNPC: {fileID: 21300000, guid: e91e317ede0f8424e892babb5b33a7c3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
