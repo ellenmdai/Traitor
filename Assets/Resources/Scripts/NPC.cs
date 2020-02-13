@@ -5,23 +5,20 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
 
-    SpriteRenderer sr;
     bool enemyInSight;
     List<GameObject> enemies;
 
-    public Sprite redPlayer;
-    public Sprite bluePlayer;
-    public Sprite greenPlayer;
-    public Sprite yellowPlayer;
-    public Sprite redNPC;
-    public Sprite blueNPC;
-    public Sprite greenNPC;
-    public Sprite yellowNPC;
+    
     public float speed;
+    public Role role;
+    public GameObject closestEnemy;
+
+    public Transform viewPivot;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
         enemyInSight = false;
         enemies = new List<GameObject>();
     }
@@ -38,95 +35,84 @@ public class NPC : MonoBehaviour
 
             //go through all enemies
             float shortestDistance = 1000f;
-            Vector3 closestEnemyPosition = transform.position;
             foreach(GameObject enemy in enemies)
             {
                 float calculatedDistance = Vector3.Distance(thisPos, enemy.transform.position);
                 if(calculatedDistance <= shortestDistance)
                 {
                     shortestDistance = calculatedDistance;
-                    closestEnemyPosition = enemy.transform.position;
+                    closestEnemy = enemy;
                 }
             }
 
 
             //move towards that enemy
-            transform.position = Vector3.MoveTowards(thisPos, closestEnemyPosition, speed);
-            //print(closestEnemyPosition.ToString());
+            transform.position = Vector3.MoveTowards(thisPos, closestEnemy.transform.position, speed);
+
+            Vector3 directionTowardsEnemy = transform.position - closestEnemy.transform.position;
+            float degreeAngleToEnemy = Mathf.Atan2(directionTowardsEnemy.y, directionTowardsEnemy.x) * 180f / Mathf.PI;
+
+            viewPivot.rotation = Quaternion.Euler(0,0,degreeAngleToEnemy);
+            
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //print("enter trigger");
-        SpriteRenderer otherSR = collision.gameObject.GetComponent<SpriteRenderer>();
-        Sprite otherTeam = otherSR.sprite;
-        Sprite thisTeam = sr.sprite;
+        GameObject otherGO = collision.gameObject;
+        if (otherGO.GetComponent<PlayerController>())
+        {
+            if (otherGO.GetComponent<PlayerController>().role == role)
+            {
+                enemies.Add(otherGO);
+                enemyInSight = true;
+            }
+        }
+        else if (otherGO.GetComponent<NPC>())
+        {
+            //probably don't need
+        }
+    }
 
-        if(thisTeam == redNPC && !(otherTeam == redNPC || otherTeam == redPlayer))
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //print("stay trigger");
+        GameObject otherGO = collision.gameObject;
+        if (otherGO.GetComponent<PlayerController>())
         {
-            enemyInSight = true;
-            if (!enemies.Contains(collision.gameObject))
+            if (otherGO.GetComponent<PlayerController>().role == role && !enemies.Contains(otherGO))
             {
-                enemies.Add(collision.gameObject);
+                enemies.Add(otherGO);
+                enemyInSight = true;
+            }
+            if (otherGO.GetComponent<PlayerController>().role != role && enemies.Contains(otherGO))
+            {
+                enemies.Remove(otherGO);
+                if (enemies.Count == 0)
+                {
+                    enemyInSight = false;
+                }
             }
         }
-        if (thisTeam == blueNPC && !(otherTeam == blueNPC || otherTeam == bluePlayer))
+        else if (otherGO.GetComponent<NPC>())
         {
-            enemyInSight = true;
-            if (!enemies.Contains(collision.gameObject))
-            {
-                enemies.Add(collision.gameObject);
-            }
-        }
-        if (thisTeam == greenNPC && !(otherTeam == greenNPC || otherTeam == greenPlayer))
-        {
-            enemyInSight = true;
-            if (!enemies.Contains(collision.gameObject))
-            {
-                enemies.Add(collision.gameObject);
-            }
-        }
-        if (thisTeam == yellowNPC && !(otherTeam == yellowNPC || otherTeam == yellowPlayer))
-        {
-            enemyInSight = true;
-            if (!enemies.Contains(collision.gameObject))
-            {
-                enemies.Add(collision.gameObject);
-            }
+            //probably don't need
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         //print("trigger exit");
-        enemies.Remove(collision.gameObject);
-        if(enemies.Count == 0)
+        if (enemies.Contains(collision.gameObject))
         {
-            enemyInSight = false;
+            enemies.Remove(collision.gameObject);
+            if (enemies.Count == 0)
+            {
+                enemyInSight = false;
+            }
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Sprite thisTeam = sr.sprite;
-        Sprite otherTeam = collision.gameObject.GetComponent<SpriteRenderer>().sprite;
-
-        if (thisTeam == redNPC && !(otherTeam == redNPC || otherTeam == redPlayer))
-        {
-            Destroy(gameObject);   
-        }
-        if (thisTeam == blueNPC && !(otherTeam == blueNPC || otherTeam == bluePlayer))
-        {
-            Destroy(gameObject);
-        }
-        if (thisTeam == greenNPC && !(otherTeam == greenNPC || otherTeam == greenPlayer))
-        {
-            Destroy(gameObject);
-        }
-        if (thisTeam == yellowNPC && !(otherTeam == yellowNPC || otherTeam == yellowPlayer))
-        {
-            Destroy(gameObject);
-        }
-    }
+    
 }
