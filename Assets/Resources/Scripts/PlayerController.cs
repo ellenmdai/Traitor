@@ -5,33 +5,37 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    //current role
     public Role role;
-    
-    public Sprite currSprite;
+    //role of the closest enemy; AKA next role would change into
     public Role closestRole;
 
+    //current Sprite
+    public Sprite currSprite;
     Rigidbody2D rb;
     SpriteRenderer sr;
-    //public coefficients for movement
-    public float speed;
+
+    //public coefficients; public for now for easy tuning in dev phase.
+    public float SPEED = 0.1f;
+    public Sprite starterSprite;
+
     //Sprites to change to
-    public Sprite redPlayer;
-    public Sprite bluePlayer;
-    public Sprite greenPlayer;
-    public Sprite yellowPlayer;
-    public Sprite redNPC;
-    public Sprite blueNPC;
-    public Sprite greenNPC;
-    public Sprite yellowNPC;
+    private Sprite janitorSprite;
+    private Sprite guardSprite;
+    private Sprite servantSprite;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        if (starterSprite == null)
+        {
+            starterSprite = janitorSprite;
+        }
         if(sr.sprite == null)
         {
-            sr.sprite = redPlayer;
+            sr.sprite = starterSprite;
         }
     }
 
@@ -41,42 +45,35 @@ public class PlayerController : MonoBehaviour
         //directional movement with a-s-d-w
         if (Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(Vector2.left * 12f);
+            Vector3 tempVect = new Vector3(-1, 0, 0);
+            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
+            rb.MovePosition(transform.position + tempVect);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(Vector2.right * 12f);
+            Vector3 tempVect = new Vector3(1, 0, 0);
+            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
+            rb.MovePosition(transform.position + tempVect);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(Vector2.up * 12f);
+            Vector3 tempVect = new Vector3(0, 1, 0);
+            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
+            rb.MovePosition(transform.position + tempVect);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(Vector2.down * 12f);
+            Vector3 tempVect = new Vector3(0, -1, 0);
+            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
+            rb.MovePosition(transform.position + tempVect);
         }
-
 
         //change player sprites to fit colors
         //can take out some colors or add refresh time
-        if (Input.GetKey(KeyCode.U) && sr.sprite != redPlayer)
+        if (Input.GetKey(KeyCode.Space))
         {
-            sr.sprite = redPlayer;
+            sr.sprite = getSprite(closestRole);
         }
-        if (Input.GetKey(KeyCode.I) && sr.sprite != bluePlayer)
-        {
-            sr.sprite = bluePlayer;
-        }
-        if (Input.GetKey(KeyCode.O) && sr.sprite != greenPlayer)
-        {
-            sr.sprite = greenPlayer;
-        }
-        if (Input.GetKey(KeyCode.P) && sr.sprite != yellowPlayer)
-        {
-            sr.sprite = yellowPlayer;
-        }
-
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -88,21 +85,48 @@ public class PlayerController : MonoBehaviour
         Sprite otherTeam = otherSR.sprite;
         Sprite playerTeam = sr.sprite;
 
-        if(otherTeam == redNPC && playerTeam != redPlayer)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        if (otherTeam == blueNPC && playerTeam != bluePlayer)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        if (otherTeam == greenNPC && playerTeam != greenPlayer)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        if (otherTeam == yellowNPC && playerTeam != yellowPlayer)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        //if(otherTeam == redNPC && playerTeam != redPlayer)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
+        //if (otherTeam == blueNPC && playerTeam != bluePlayer)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
+        //if (otherTeam == greenNPC && playerTeam != greenPlayer)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
+        //if (otherTeam == yellowNPC && playerTeam != yellowPlayer)
+        //{
+        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //}
     }
+    //do necessary changes when role is switched
+    private void switchRole()
+    {
+        role = closestRole;
+        sr.sprite = getSprite(role);
+    }
+    //Todo: implement this method
+    private Role getClosestEnemyRole()
+    {
+        return Role.Guard;
+    }
+    private Sprite getSprite(Role role)
+    {
+        switch (role)
+        {
+            case Role.Guard:
+                return guardSprite;
+            case Role.Janitor:
+                return janitorSprite;
+            case Role.Servant:
+                return servantSprite;
+            default:
+                return starterSprite;
+        }
+
+    }
+
 }
