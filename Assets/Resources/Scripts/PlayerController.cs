@@ -5,10 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    public Role role;
+    
+    public Sprite currSprite;
+    public Role closestRole;
 
-    Rigidbody2D _rb;
+    Rigidbody2D rb;
     SpriteRenderer sr;
-
+    //public coefficients for movement
+    public float speed;
+    //Sprites to change to
     public Sprite redPlayer;
     public Sprite bluePlayer;
     public Sprite greenPlayer;
@@ -21,7 +27,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         if(sr.sprite == null)
         {
@@ -32,27 +38,23 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
         //directional movement with a-s-d-w
         if (Input.GetKey(KeyCode.A))
         {
-            _rb.AddForce(Vector2.left * 12f);
+            rb.AddForce(Vector2.left * 12f);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            _rb.AddForce(Vector2.right * 12f);
+            rb.AddForce(Vector2.right * 12f);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            _rb.AddForce(Vector2.up * 12f);
+            rb.AddForce(Vector2.up * 12f);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            _rb.AddForce(Vector2.down * 12f);
+            rb.AddForce(Vector2.down * 12f);
         }
-
-
 
 
         //change player sprites to fit colors
@@ -73,8 +75,6 @@ public class PlayerController : MonoBehaviour
         {
             sr.sprite = yellowPlayer;
         }
-
-
 
 
     }
