@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: d5c5fcad54b59214e8d27267fdf75ce4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5155993228913826636
+    second: Stardew Valley - Demitrius_2
+  - first:
+      213: 5695323365765092347
+    second: Stardew Valley - Demitrius_3
+  - first:
+      213: -7197266294464146007
+    second: Stardew Valley - Demitrius_4
+  - first:
+      213: -9040949505590651653
+    second: Stardew Valley - Demitrius_5
+  - first:
+      213: 6793028464987184367
+    second: Stardew Valley - Demitrius_6
+  - first:
+      213: -2452197680709468850
+    second: Stardew Valley - Demitrius_7
+  - first:
+      213: 8689490400600866350
+    second: Stardew Valley - Demitrius_8
+  - first:
+      213: 2279854801140555928
+    second: Stardew Valley - Demitrius_9
+  - first:
+      213: 9080398421800819083
+    second: Stardew Valley - Demitrius_10
+  - first:
+      213: 385755527601619258
+    second: Stardew Valley - Demitrius_11
+  - first:
+      213: -34811790710896969
+    second: Stardew Valley - Demitrius_12
+  - first:
+      213: -3616682006103906452
+    second: Stardew Valley - Demitrius_13
+  - first:
+      213: -3472709016178533427
+    second: Stardew Valley - Demitrius_14
+  - first:
+      213: 5556591988033667557
+    second: Stardew Valley - Demitrius_15
+  - first:
+      213: 7204711593408380387
+    second: Stardew Valley - Demitrius_16
+  - first:
+      213: 7338747434688889886
+    second: Stardew Valley - Demitrius_17
+  - first:
+      213: -459782286858034380
+    second: Stardew Valley - Demitrius_18
+  - first:
+      213: -8198622233730651557
+    second: Stardew Valley - Demitrius_19
+  - first:
+      213: 2347220124375340673
+    second: Stardew Valley - Demitrius_20
+  - first:
+      213: 4923320322108825897
+    second: Stardew Valley - Demitrius_21
+  - first:
+      213: 5206620910063034258
+    second: Stardew Valley - Demitrius_22
+  - first:
+      213: 8611106679719518487
+    second: Stardew Valley - Demitrius_23
+  - first:
+      213: 5616232732073375022
+    second: Stardew Valley - Demitrius_24
+  - first:
+      213: 8993606173829884028
+    second: Stardew Valley - Demitrius_25
+  - first:
+      213: 8311991101926109380
+    second: Stardew Valley - Demitrius_26
+  - first:
+      213: -6054190513570062662
+    second: Stardew Valley - Demitrius_27
+  - first:
+      213: 2172215983794354775
+    second: Stardew Valley - Demitrius_28
+  - first:
+      213: -8301037579747215090
+    second: Stardew Valley - Demitrius_29
+  - first:
+      213: -4827554883553423289
+    second: Stardew Valley - Demitrius_30
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 223
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f437765c897c0c43a0b5a3211fb83ee
+      internalID: 5155993228913826636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 223
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9b35b871f27144da62c519fd28fbde
+      internalID: 5695323365765092347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 223
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4313ca1eed7c2754d8867febc5cb570d
+      internalID: -7197266294464146007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 223
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a369503608ecdf40adb78afdac557de
+      internalID: -9040949505590651653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 233
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a913a146ceed35743a18cc6d89953aa3
+      internalID: 6793028464987184367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 191
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2197b1190beebd44382089c3d55e5bb1
+      internalID: -2452197680709468850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 191
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ed7662819d924fb8e498e6bc9acb4
+      internalID: 8689490400600866350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 191
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7bf7becf38f4442be2f64d73a30ddc
+      internalID: 2279854801140555928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 191
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd517542cd7931c47b1e609aa6dd328d
+      internalID: 9080398421800819083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 157
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d178c86f56bed4fad89900d590039b
+      internalID: 385755527601619258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 159
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a333abb5a405a784e9e67c7fa99cbfc6
+      internalID: -34811790710896969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fb6b72f42e92b498c1886712f3c2cd
+      internalID: -3616682006103906452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 159
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66d6ca72a5a2844b9a6d07b59ea54f
+      internalID: -3472709016178533427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 159
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0800032b8d43d46a8a7e3494624e81
+      internalID: 5556591988033667557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 127
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e88a36890530ea4c8df10cf5119a332
+      internalID: 7204711593408380387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 127
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391ec9b98aa8fab499b490b84b59ef04
+      internalID: 7338747434688889886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 127
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27184a286359588418059931f6112658
+      internalID: -459782286858034380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 127
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfd9a0fc36f07b458b463fc5c1f3f46
+      internalID: -8198622233730651557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d2693907da56b4f85dff4d17a6a3d5
+      internalID: 2347220124375340673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9f4351552b0643a851ca1751fcbcc
+      internalID: 4923320322108825897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 95
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ae487c3d5be6a4b86678b7fddea343
+      internalID: 5206620910063034258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c561f5c1ad214ab52c0e0bc510170
+      internalID: 8611106679719518487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 64
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ab806adce844a409b083ed085e9bb9
+      internalID: 5616232732073375022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541fe1c072b5fac4ca1a260f2460b8b9
+      internalID: 8993606173829884028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_26
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708016b0ce05f3641a958445469bf520
+      internalID: 8311991101926109380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8079756585c15834486d8560672957d3
+      internalID: -6054190513570062662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_28
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 32
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823e7bc42a2fc049b0d55d3c50adfe4
+      internalID: 2172215983794354775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 32
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3bc6508ecd3dd43b5b0157ca306014
+      internalID: -8301037579747215090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stardew Valley - Demitrius_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 103
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973422a005ac1b44ea4a5945c2f4d059
+      internalID: -4827554883553423289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4628933047348295927}
   - component: {fileID: 8278405921485400924}
   - component: {fileID: 3536184302887779468}
-  - component: {fileID: 5466080538697555688}
+  - component: {fileID: 6593592942481392377}
   - component: {fileID: 4988951216322111294}
   - component: {fileID: 7410882091679991929}
   m_Layer: 0
-  m_Name: RedNPC
+  m_Name: Sebastian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,12 +73,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4a8ac06680b7544749daac51396ad414, type: 3}
+  m_Sprite: {fileID: -9160374568290730385, guid: 1756f5224b3332e41a4b7c623f162c25,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.52, y: 1.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,8 +106,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &5466080538697555688
-BoxCollider2D:
+--- !u!70 &6593592942481392377
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -119,18 +120,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.52, y: 1.12}
+  m_Direction: 0
 --- !u!58 &4988951216322111294
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -159,12 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe3a1fa8d3b54fae846a5c9d1d2ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redPlayer: {fileID: 21300000, guid: e373a17b450f9417ab9a7161c6ca7e96, type: 3}
-  bluePlayer: {fileID: 21300000, guid: f3a7b7a40d7774bf587d0a9c35caa6c4, type: 3}
-  greenPlayer: {fileID: 21300000, guid: 4ef221a3eab784b58b811442c6b9edf9, type: 3}
-  yellowPlayer: {fileID: 21300000, guid: f6cc8cba3b06a4b7dab07cb00c9b4b34, type: 3}
-  redNPC: {fileID: 21300000, guid: 4a8ac06680b7544749daac51396ad414, type: 3}
-  blueNPC: {fileID: 21300000, guid: 751d6baca97754873a29306432201cde, type: 3}
-  greenNPC: {fileID: 21300000, guid: fc5ac4b7a699845d48e38b88a4bd9032, type: 3}
-  yellowNPC: {fileID: 21300000, guid: e91e317ede0f8424e892babb5b33a7c3, type: 3}
   speed: 0.02
+  role: 0
+  closestEnemy: {fileID: 0}
+  viewPivot: {fileID: 0}

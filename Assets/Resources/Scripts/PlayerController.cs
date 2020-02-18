@@ -107,6 +107,7 @@ public class PlayerController : MonoBehaviour
     {
         role = closestRole;
         sr.sprite = getSprite(role);
+        GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
     //Todo: implement this method
     private Role getClosestEnemyRole()
@@ -126,7 +127,6 @@ public class PlayerController : MonoBehaviour
             default:
                 return starterSprite;
         }
-
     }
 
 }
