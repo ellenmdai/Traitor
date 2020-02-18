@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 6a4a5a9bbbf060c459696bddfa016d21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5577045823138556125
+    second: Clint_1
+  - first:
+      213: 6486314149480843582
+    second: Clint_2
+  - first:
+      213: -2670058937409301769
+    second: Clint_3
+  - first:
+      213: -6396049805925241135
+    second: Clint_4
+  - first:
+      213: 2212460832677976307
+    second: Clint_6
+  - first:
+      213: -8990432737889496295
+    second: Clint_7
+  - first:
+      213: 8097988442783756622
+    second: Clint_8
+  - first:
+      213: -5930505323751759780
+    second: Clint_9
+  - first:
+      213: -8644675476012497703
+    second: Clint_11
+  - first:
+      213: 8209305032026136003
+    second: Clint_12
+  - first:
+      213: 4901770417081897850
+    second: Clint_13
+  - first:
+      213: 806927231576752096
+    second: Clint_14
+  - first:
+      213: 1795542587606668701
+    second: Clint_15
+  - first:
+      213: 7961677787819607171
+    second: Clint_16
+  - first:
+      213: -5990378720040004600
+    second: Clint_17
+  - first:
+      213: 7252573711216889515
+    second: Clint_18
+  - first:
+      213: 4817096006198271592
+    second: Clint_19
+  - first:
+      213: -6346325850583501343
+    second: Clint_20
+  - first:
+      213: -4119661199347472914
+    second: Clint_21
+  - first:
+      213: 5377142639011752778
+    second: Clint_22
+  - first:
+      213: 2005856067799502745
+    second: Clint_23
+  - first:
+      213: 4569068627838010435
+    second: Clint_24
+  - first:
+      213: 4087644205601578259
+    second: Clint_25
+  - first:
+      213: 7677578424245939484
+    second: Clint_26
+  - first:
+      213: -5043996072336882854
+    second: Clint_27
+  - first:
+      213: 233528698440937663
+    second: Clint_28
+  - first:
+      213: -4515039638903332611
+    second: Clint_29
+  - first:
+      213: -5017341151241897893
+    second: Clint_30
+  - first:
+      213: 3316898538383965047
+    second: Clint_31
+  - first:
+      213: -4415839420017021559
+    second: Clint_32
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clint_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 336
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2acd5c5f5270642a215b725ba371a6
+      internalID: -5577045823138556125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 336
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07764cefaf06e14983135e6c38c9f3d
+      internalID: 6486314149480843582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 336
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c8ad056ab764a4f84a801752ab2f19
+      internalID: -2670058937409301769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 336
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ab74b5dd1745b47b068342003bb21a
+      internalID: -6396049805925241135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 304
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1de1185f6a3e548a5ded09a42a7a6b
+      internalID: 2212460832677976307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 304
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68fc04c6961c414d841f31016fc3612
+      internalID: -8990432737889496295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 304
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204675b471a39d544a64bdf91a614c63
+      internalID: 8097988442783756622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 304
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bfe7c60d4903f4c8bd2d5e24b56ab9
+      internalID: -5930505323751759780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 272
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df37d2d83246b124dae10b3a0f1ca131
+      internalID: -8644675476012497703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 272
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84b796486aef66478aa034589def292
+      internalID: 8209305032026136003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 272
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc5fed27d79e445a9b7f03519d5726
+      internalID: 4901770417081897850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 272
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389d301da9c4bba4f836569ee5bb638c
+      internalID: 806927231576752096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 240
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69e1b0c1fa79643bc8e22c43dbf34d
+      internalID: 1795542587606668701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 240
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30a9b5e82f6284dacbfa134e7f5b62
+      internalID: 7961677787819607171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 240
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef5b93893774694499b26d0d923f363
+      internalID: -5990378720040004600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 240
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe394e3fc7d67458f8270e143229bb
+      internalID: 7252573711216889515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 208
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd21d9fdc721a4aa86fbe7da1c692f
+      internalID: 4817096006198271592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 208
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff921d3878b49904ba55bf6819e4b62a
+      internalID: -6346325850583501343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 157
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64bff0dd436dd04b9d7fc4270124c34
+      internalID: -4119661199347472914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 176
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553835c7ded27a546a563911ac78c031
+      internalID: 5377142639011752778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 176
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68530eb24e4516a4a8c185354809a797
+      internalID: 2005856067799502745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 128
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d2745cca237aa43984b8a2a53b678b
+      internalID: 4569068627838010435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 128
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6bd0a33846652429c6eaab6b52d0ff
+      internalID: 4087644205601578259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2198e0f6ee5a2498b0a8db63b89674
+      internalID: 7677578424245939484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 80
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d741697611fc784695e1cb7265ccf02
+      internalID: -5043996072336882854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 86
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f4e5512dd01894bb8c7a688867539c
+      internalID: 233528698440937663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_29
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 32
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9f4d3a43f8c9b499fa78710f3eed07
+      internalID: -4515039638903332611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 48
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952393325f112454ab733d6496b340a4
+      internalID: -5017341151241897893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30466f41bfbe0ac4db9f35e7360eeb8c
+      internalID: 3316898538383965047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clint_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 103
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9259220b6f184494693dd1e88f414cad
+      internalID: -4415839420017021559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

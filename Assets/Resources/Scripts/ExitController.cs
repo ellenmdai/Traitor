@@ -20,8 +20,8 @@ public class ExitController : MonoBehaviour
     // When player reaches exit, load next scene.
     // For now though, just reload the scene
     void OnTriggerEnter2D(Collider2D other) {
-        if(other is BoxCollider2D && other.gameObject.GetComponent<PlayerController>()) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if(other is CapsuleCollider2D && other.gameObject.GetComponent<PlayerController>()) {
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
         }
     }
 }
