@@ -14,25 +14,25 @@ public class PlayerController : MonoBehaviour
     public Sprite currSprite;
     Rigidbody2D rb;
     SpriteRenderer sr;
-
+    
     //public coefficients; public for now for easy tuning in dev phase.
-    public float SPEED = 0.1f;
+    public float SPEED = 5f;
+    public float RADIUS = 5f;
     public Sprite starterSprite;
 
     //Sprites to change to
-    private Sprite janitorSprite;
-    private Sprite guardSprite;
-    private Sprite servantSprite;
+    public Sprite janitorSprite;
+    public Sprite guardSprite;
+    public Sprite servantSprite;
 
+    //role iterator
+    private int roleIter;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        if (starterSprite == null)
-        {
-            starterSprite = janitorSprite;
-        }
+        roleIter = 0;
         if(sr.sprite == null)
         {
             sr.sprite = starterSprite;
@@ -72,7 +72,8 @@ public class PlayerController : MonoBehaviour
         //can take out some colors or add refresh time
         if (Input.GetKey(KeyCode.Space))
         {
-            sr.sprite = getSprite(closestRole);
+            closestRole = (Role)roleIter; //temporary: able to iterate through roles
+            updateRoleAndSprite();
         }
     }
 
@@ -84,7 +85,7 @@ public class PlayerController : MonoBehaviour
         SpriteRenderer otherSR = collision.gameObject.GetComponent<SpriteRenderer>();
         Sprite otherTeam = otherSR.sprite;
         Sprite playerTeam = sr.sprite;
-
+        print("HALKJ");
         //if(otherTeam == redNPC && playerTeam != redPlayer)
         //{
         //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -103,15 +104,15 @@ public class PlayerController : MonoBehaviour
         //}
     }
     //do necessary changes when role is switched
-    private void switchRole()
+    private void updateRoleAndSprite()
     {
         role = closestRole;
         sr.sprite = getSprite(role);
     }
-    //Todo: implement this method
-    private Role getClosestEnemyRole()
+    //Todo: implement this method: every time an enemy entered the radius / exit the radius, calculate which is the closeset and return its role
+    private void updateClosestEnemyRole()
     {
-        return Role.Guard;
+        
     }
     private Sprite getSprite(Role role)
     {
@@ -126,7 +127,6 @@ public class PlayerController : MonoBehaviour
             default:
                 return starterSprite;
         }
-
     }
 
 }
