@@ -1566,7 +1566,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e373a17b450f9417ab9a7161c6ca7e96, type: 3}
+  m_Sprite: {fileID: -9160374568290730385, guid: 1756f5224b3332e41a4b7c623f162c25,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1606,7 +1607,7 @@ MonoBehaviour:
   role: 0
   closestRole: 0
   currSprite: {fileID: 0}
-  SPEED: 0.1
+  SPEED: 6
   starterSprite: {fileID: 0}
 --- !u!58 &1563133084
 CircleCollider2D:
@@ -1624,8 +1625,8 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2
---- !u!61 &1563133085
-BoxCollider2D:
+--- !u!70 &1563133085
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1638,18 +1639,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 0.2, y: 0.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.52, y: 1.12}
+  m_Direction: 0
 --- !u!50 &1563133086
 Rigidbody2D:
   serializedVersion: 4
@@ -1738,6 +1729,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7410882091679991929, guid: 831aa9d19fccd4266ba96737142f8e9b,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 831aa9d19fccd4266ba96737142f8e9b, type: 3}
 --- !u!1001 &1978930346592194042
@@ -1807,6 +1803,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9049446807886852717, guid: 60a27cca5f49d444499a22dde7a36771,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a27cca5f49d444499a22dde7a36771, type: 3}
 --- !u!1001 &4609006699368070551
@@ -1816,6 +1817,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1549575713670027466, guid: 608067752fef3436daa6fcb38e763451,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5265891614506201945, guid: 608067752fef3436daa6fcb38e763451,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1944,6 +1950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GreenNPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047293528798148939, guid: b4d3d0344ea74424694179418e53574b,
+        type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4d3d0344ea74424694179418e53574b, type: 3}

@@ -108,6 +108,7 @@ public class PlayerController : MonoBehaviour
     {
         role = closestRole;
         sr.sprite = getSprite(role);
+        GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
     //Todo: implement this method: every time an enemy entered the radius / exit the radius, calculate which is the closeset and return its role
     private void updateClosestEnemyRole()
