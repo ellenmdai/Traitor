@@ -91,7 +91,29 @@ public class NPC : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //print("stay trigger");
+        GameObject otherGO = collision.gameObject;
+        if (otherGO.GetComponent<PlayerController>())
+        {
+            Role otherRole = otherGO.GetComponent<PlayerController>().role;
+            if (otherRole == role || otherRole == Role.Player)
+            {
+                if (collision is CapsuleCollider2D)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
+            }
+        }
+        else if (otherGO.GetComponent<NPC>())
+        {
+            //probably don't need
+        }
 
-    
+    }
+
+
+
+
 }
