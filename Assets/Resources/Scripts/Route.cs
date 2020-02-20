@@ -26,13 +26,11 @@ public class Route : MonoBehaviour
         }
 
         Gizmos.DrawLine(new Vector2(controlPoints[0].position.x, controlPoints[0].position.y),
-            new Vector2(controlPoints[1].position.x, controlPoints[1].position.y));
+            new Vector2(controlPoints[1].position.x, controlPoints[1].position.x));
         Gizmos.DrawLine(new Vector2(controlPoints[2].position.x, controlPoints[2].position.y),
-                    new Vector2(controlPoints[3].position.x, controlPoints[3].position.y));
+                    new Vector2(controlPoints[3].position.x, controlPoints[3].position.x));
 
-        Gizmos.DrawSphere(controlPoints[1].position, 0.25f);
-        Gizmos.DrawSphere(controlPoints[2].position, 0.25f);
-
+        Gizmos.DrawSphere(controlPoints[0].position, 0.25f);
 
     }
 }

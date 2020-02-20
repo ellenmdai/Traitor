@@ -20,9 +20,11 @@ public class PlayerController : MonoBehaviour
     public Sprite starterSprite;
 
     //Sprites to change to
-    private Sprite janitorSprite;
-    private Sprite guardSprite;
-    private Sprite servantSprite;
+
+    public Sprite playerSprite;
+    public Sprite janitorSprite;
+    public Sprite guardSprite;
+    public Sprite servantSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,7 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         if (starterSprite == null)
         {
-            starterSprite = janitorSprite;
+            starterSprite = playerSprite;
         }
         if(sr.sprite == null)
         {
@@ -70,9 +72,13 @@ public class PlayerController : MonoBehaviour
 
         //change player sprites to fit colors
         //can take out some colors or add refresh time
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            sr.sprite = getSprite(closestRole);
+            //sr.sprite = getSprite(closestRole);
+            if (closestRole != role)
+            {
+                switchRole();
+            }
         }
     }
 
@@ -80,10 +86,12 @@ public class PlayerController : MonoBehaviour
     {
         //collision with another NPC
         //check color to see if player reset
-
-        SpriteRenderer otherSR = collision.gameObject.GetComponent<SpriteRenderer>();
-        Sprite otherTeam = otherSR.sprite;
-        Sprite playerTeam = sr.sprite;
+        if (collision.gameObject.GetComponent<SpriteRenderer>())
+        {
+            SpriteRenderer otherSR = collision.gameObject.GetComponent<SpriteRenderer>();
+            Sprite otherTeam = otherSR.sprite;
+            Sprite playerTeam = sr.sprite;
+        }
 
         //if(otherTeam == redNPC && playerTeam != redPlayer)
         //{
@@ -101,6 +109,24 @@ public class PlayerController : MonoBehaviour
         //{
         //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         //}
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<NPC>())
+        {
+            closestRole = collision.gameObject.GetComponent<NPC>().role;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<NPC>())
+        {
+            if(closestRole == collision.gameObject.GetComponent<NPC>().role)
+            {
+                closestRole = Role.Player;
+            }
+        }
     }
     //do necessary changes when role is switched
     private void switchRole()

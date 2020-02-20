@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4988951216322111294}
   - component: {fileID: 7410882091679991929}
   m_Layer: 0
-  m_Name: Sebastian
+  m_Name: Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +137,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.5
 --- !u!114 &7410882091679991929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe3a1fa8d3b54fae846a5c9d1d2ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 4
   role: 0
-  closestEnemy: {fileID: 0}
   viewPivot: {fileID: 0}
+  hasPathToFollow: 0
+  waypoints: []

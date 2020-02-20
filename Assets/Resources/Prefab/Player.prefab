@@ -137,7 +137,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.5
 --- !u!114 &4195985992248569766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,8 +150,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0699b534257ce4884bdbd5a474fab8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  role: 0
-  closestRole: 0
-  currSprite: {fileID: 0}
-  SPEED: 6
-  starterSprite: {fileID: 0}
+  role: -1
+  closestRole: -1
+  currSprite: {fileID: -9160374568290730385, guid: 1756f5224b3332e41a4b7c623f162c25,
+    type: 3}
+  SPEED: 4
+  starterSprite: {fileID: -9160374568290730385, guid: 1756f5224b3332e41a4b7c623f162c25,
+    type: 3}
+  playerSprite: {fileID: -9160374568290730385, guid: 1756f5224b3332e41a4b7c623f162c25,
+    type: 3}
+  janitorSprite: {fileID: 5155993228913826636, guid: d5c5fcad54b59214e8d27267fdf75ce4,
+    type: 3}
+  guardSprite: {fileID: -5577045823138556125, guid: 6a4a5a9bbbf060c459696bddfa016d21,
+    type: 3}
+  servantSprite: {fileID: -7349913420832987112, guid: 57f50174853f55541aa350592b18308a,
+    type: 3}
