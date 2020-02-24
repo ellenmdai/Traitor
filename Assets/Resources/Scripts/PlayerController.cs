@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public Role role;
     //role of the closest enemy; AKA next role would change into
     public Role closestRole;
+    private List<GameObject> npcsInRange;
 
     //current Sprite
     public Sprite currSprite;
@@ -21,6 +22,9 @@ public class PlayerController : MonoBehaviour
     public Sprite starterSprite;
 
     //Sprites to change to
+
+    public Sprite playerSprite;
+
     public Sprite janitorSprite;
     public Sprite guardSprite;
     public Sprite servantSprite;
@@ -32,11 +36,19 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        roleIter = 0;
+
+        if (starterSprite == null)
+        {
+            starterSprite = playerSprite;
+        }
+
         if(sr.sprite == null)
         {
             sr.sprite = starterSprite;
         }
+        role = Role.Player;
+        closestRole = role;
+        npcsInRange = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -67,13 +79,20 @@ public class PlayerController : MonoBehaviour
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
             rb.MovePosition(transform.position + tempVect);
         }
-
+        if(npcsInRange.Count != 0)
+        {
+            findClosestRole();
+        }
+        
         //change player sprites to fit colors
         //can take out some colors or add refresh time
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            closestRole = (Role)roleIter; //temporary: able to iterate through roles
-            updateRoleAndSprite();
+            //sr.sprite = getSprite(closestRole);
+            if (npcsInRange.Count != 0 && closestRole != role)
+            {
+                updateRoleAndSprite();
+            }
         }
     }
 
@@ -81,27 +100,28 @@ public class PlayerController : MonoBehaviour
     {
         //collision with another NPC
         //check color to see if player reset
+        if (collision.gameObject.GetComponent<NPC>())
+        {
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
 
-        SpriteRenderer otherSR = collision.gameObject.GetComponent<SpriteRenderer>();
-        Sprite otherTeam = otherSR.sprite;
-        Sprite playerTeam = sr.sprite;
-        print("HALKJ");
-        //if(otherTeam == redNPC && playerTeam != redPlayer)
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
-        //if (otherTeam == blueNPC && playerTeam != bluePlayer)
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
-        //if (otherTeam == greenNPC && playerTeam != greenPlayer)
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
-        //if (otherTeam == yellowNPC && playerTeam != yellowPlayer)
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<NPC>())
+        {
+            GameObject otherNPC = collision.gameObject;
+            npcsInRange.Add(otherNPC);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<NPC>())
+        {
+            GameObject otherNPC = collision.gameObject;
+            npcsInRange.Remove(otherNPC);
+        }
     }
     //do necessary changes when role is switched
     private void updateRoleAndSprite()
@@ -110,15 +130,32 @@ public class PlayerController : MonoBehaviour
         sr.sprite = getSprite(role);
         // GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
-    //Todo: implement this method: every time an enemy entered the radius / exit the radius, calculate which is the closeset and return its role
-    private void updateClosestEnemyRole()
+
+    
+    private void findClosestRole()
     {
-        
+        Vector3 playerPosition = transform.position;
+        Vector3 closest = playerPosition;
+        float closestDistance = 1000f;
+        foreach(GameObject npc in npcsInRange)
+        {
+            Vector3 npcPosition = npc.transform.position;
+            float npcDistance = Vector3.Distance(npcPosition, playerPosition);
+            if(npcDistance <= closestDistance)
+            {
+                closestDistance = npcDistance;
+                closest = npcPosition;
+                closestRole = npc.GetComponent<NPC>().role;
+            }
+
+        }
     }
     private Sprite getSprite(Role role)
     {
         switch (role)
         {
+            case Role.Player:
+                return playerSprite;
             case Role.Guard:
                 return guardSprite;
             case Role.Janitor:
