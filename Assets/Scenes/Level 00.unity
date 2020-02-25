@@ -1980,12 +1980,17 @@ PrefabInstance:
     - target: {fileID: 4195985992248569761, guid: a4bb2136db1bd07439f4834a86900d9f,
         type: 3}
       propertyPath: m_Radius
-      value: 2.1213799
+      value: 2.0201
       objectReference: {fileID: 0}
     - target: {fileID: 4195985992248569761, guid: a4bb2136db1bd07439f4834a86900d9f,
         type: 3}
       propertyPath: m_UsedByEffector
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195985992248569761, guid: a4bb2136db1bd07439f4834a86900d9f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4195985992248569764, guid: a4bb2136db1bd07439f4834a86900d9f,
         type: 3}
