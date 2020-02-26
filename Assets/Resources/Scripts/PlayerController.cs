@@ -152,18 +152,25 @@ public class PlayerController : MonoBehaviour
                 closestRole = npc.GetComponent<NPC>().role;
                 closestNPC = npc;
             }
+            //disable glow for each
+            switchNPCGlow(npc, false);
         }
         //set a glow on the closest NPC
-        if(closestNPC != null)
+        switchNPCGlow(closestNPC, true);
+    }
+
+    private void switchNPCGlow(GameObject NPCgo, bool ifOn)
+    {
+        if (NPCgo != null)
         {
-            GameObject closestNPCGlow = closestNPC.transform.Find("Glow").gameObject;
+            GameObject closestNPCGlow = NPCgo.transform.Find("Glow").gameObject;
             if (closestNPCGlow != null)
             {
-                closestNPCGlow.transform.GetComponent<SpriteRenderer>().enabled = true;
+                closestNPCGlow.transform.GetComponent<SpriteRenderer>().enabled = ifOn;
             }
         }
-
     }
+
     private Sprite getSprite(Role role)
     {
         switch (role)
