@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class NPC : MonoBehaviour
 {
 
+    
     bool enemyInSight;
     List<GameObject> enemies;
-
+    
     
     public float speed;
     public Role role;

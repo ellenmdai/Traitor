@@ -55,31 +55,32 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //directional movement with a-s-d-w
+        Vector3 deltaVect = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.A))
         {
             Vector3 tempVect = new Vector3(-1, 0, 0);
-            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.D))
         {
             Vector3 tempVect = new Vector3(1, 0, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.W))
         {
             Vector3 tempVect = new Vector3(0, 1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.S))
         {
             Vector3 tempVect = new Vector3(0, -1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
         }
-        if(npcsInRange.Count != 0)
+        rb.MovePosition(transform.position + deltaVect);
+        if (npcsInRange.Count != 0)
         {
             findClosestRole();
         }
