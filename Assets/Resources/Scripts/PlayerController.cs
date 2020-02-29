@@ -83,6 +83,9 @@ public class PlayerController : MonoBehaviour
         {
             findClosestRole();
         }
+        else {
+            closestRole = Role.Player;
+        }
         
         //change player sprites to fit colors
         //can take out some colors or add refresh time
@@ -131,6 +134,11 @@ public class PlayerController : MonoBehaviour
         // GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
 
+    public void resetToPlayerRole() {
+        role = Role.Player;
+        sr.sprite = getSprite(role);
+    }
+
     
     private void findClosestRole()
     {
@@ -150,7 +158,7 @@ public class PlayerController : MonoBehaviour
 
         }
     }
-    private Sprite getSprite(Role role)
+    public Sprite getSprite(Role role)
     {
         switch (role)
         {
@@ -167,4 +175,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public Role getCurrentRole() {
+        return role;
+    }
+    
+    public Role getClosestRole() {
+        return closestRole;
+    }
 }
