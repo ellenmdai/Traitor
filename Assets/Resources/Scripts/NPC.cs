@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class NPC : MonoBehaviour
 {
 
+    
     bool enemyInSight;
     List<GameObject> enemies;
-
+    
     
     public float speed;
     public Role role;
@@ -77,7 +78,7 @@ public class NPC : MonoBehaviour
         if (otherGO.GetComponent<PlayerController>())
         {
             Role otherRole = otherGO.GetComponent<PlayerController>().role;
-            if (otherRole != role || otherRole == Role.Player)
+            if (otherRole == role || otherRole == Role.Player)
             {
                 if (collision is CapsuleCollider2D)
                 {
@@ -98,7 +99,7 @@ public class NPC : MonoBehaviour
         if (otherGO.GetComponent<PlayerController>())
         {
             Role otherRole = otherGO.GetComponent<PlayerController>().role;
-            if (otherRole != role || otherRole == Role.Player)
+            if (otherRole == role || otherRole == Role.Player)
             {
                 if (collision is CapsuleCollider2D)
                 {

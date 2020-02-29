@@ -55,31 +55,32 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //directional movement with a-s-d-w
+        Vector3 deltaVect = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.A))
         {
             Vector3 tempVect = new Vector3(-1, 0, 0);
-            tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.D))
         {
             Vector3 tempVect = new Vector3(1, 0, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.W))
         {
             Vector3 tempVect = new Vector3(0, 1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.S))
         {
             Vector3 tempVect = new Vector3(0, -1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
-            rb.MovePosition(transform.position + tempVect);
+            deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
         }
-        if(npcsInRange.Count != 0)
+        rb.MovePosition(transform.position + deltaVect);
+        if (npcsInRange.Count != 0)
         {
             findClosestRole();
         }
@@ -123,6 +124,8 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.GetComponent<NPC>())
         {
             GameObject otherNPC = collision.gameObject;
+            //disable the glow if it is the closest one in range
+            otherNPC.transform.Find("Glow").gameObject.GetComponent<SpriteRenderer>().enabled = false;
             npcsInRange.Remove(otherNPC);
         }
     }
@@ -145,6 +148,7 @@ public class PlayerController : MonoBehaviour
         Vector3 playerPosition = transform.position;
         Vector3 closest = playerPosition;
         float closestDistance = 1000f;
+        GameObject closestNPC = null;
         foreach(GameObject npc in npcsInRange)
         {
             Vector3 npcPosition = npc.transform.position;
@@ -154,8 +158,24 @@ public class PlayerController : MonoBehaviour
                 closestDistance = npcDistance;
                 closest = npcPosition;
                 closestRole = npc.GetComponent<NPC>().role;
+                closestNPC = npc;
             }
+            //disable glow for each
+            switchNPCGlow(npc, false);
+        }
+        //set a glow on the closest NPC
+        switchNPCGlow(closestNPC, true);
+    }
 
+    private void switchNPCGlow(GameObject NPCgo, bool ifOn)
+    {
+        if (NPCgo != null)
+        {
+            GameObject closestNPCGlow = NPCgo.transform.Find("Glow").gameObject;
+            if (closestNPCGlow != null)
+            {
+                closestNPCGlow.transform.GetComponent<SpriteRenderer>().enabled = ifOn;
+            }
         }
     }
     public Sprite getSprite(Role role)
