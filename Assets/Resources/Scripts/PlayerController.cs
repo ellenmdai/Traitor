@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
+using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
     //current role
@@ -10,6 +9,7 @@ public class PlayerController : MonoBehaviour
     //role of the closest enemy; AKA next role would change into
     public Role closestRole;
     private List<GameObject> npcsInRange;
+    private bool canChangeRole; // if cooldown is elapsed and player can change roles again
 
     //current Sprite
     public Sprite currSprite;
@@ -31,6 +31,10 @@ public class PlayerController : MonoBehaviour
 
     //role iterator
     private int roleIter;
+
+    //
+    public UnityEvent ChangeRoleEvent; // notify timers to count down
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +53,7 @@ public class PlayerController : MonoBehaviour
         role = Role.Player;
         closestRole = role;
         npcsInRange = new List<GameObject>();
+        canChangeRole = true;
     }
 
     // Update is called once per frame
@@ -96,6 +101,8 @@ public class PlayerController : MonoBehaviour
             if (npcsInRange.Count != 0 && closestRole != role)
             {
                 updateRoleAndSprite();
+                canChangeRole = false;
+                ChangeRoleEvent.Invoke();
             }
         }
     }
@@ -136,12 +143,6 @@ public class PlayerController : MonoBehaviour
         sr.sprite = getSprite(role);
         // GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
-
-    public void resetToPlayerRole() {
-        role = Role.Player;
-        sr.sprite = getSprite(role);
-    }
-
     
     private void findClosestRole()
     {
@@ -193,6 +194,19 @@ public class PlayerController : MonoBehaviour
             default:
                 return starterSprite;
         }
+    }
+
+    // ShapeshiftTimerController: UnityEvent CooldownCompleteEvent
+    public void onCooldownComplete() {
+        Debug.Log("onCooldownComplete");
+        canChangeRole = true;
+    }
+
+    // ShapeshiftTimerController: UnityEvent TimerCompleteEvent
+    public void onTimerComplete() {
+        Debug.Log("onTimerComplete");
+        role = Role.Player;
+        sr.sprite = getSprite(role);
     }
 
     public Role getCurrentRole() {
