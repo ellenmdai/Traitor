@@ -198,13 +198,13 @@ public class PlayerController : MonoBehaviour
 
     // ShapeshiftTimerController: UnityEvent CooldownCompleteEvent
     public void onCooldownComplete() {
-        Debug.Log("onCooldownComplete");
+        // Debug.Log("onCooldownComplete");
         canChangeRole = true;
     }
 
     // ShapeshiftTimerController: UnityEvent TimerCompleteEvent
     public void onTimerComplete() {
-        Debug.Log("onTimerComplete");
+        // Debug.Log("onTimerComplete");
         role = Role.Player;
         sr.sprite = getSprite(role);
     }

@@ -248,6 +248,9 @@ MonoBehaviour:
     type: 3}
   servantSprite: {fileID: -7349913420832987112, guid: 57f50174853f55541aa350592b18308a,
     type: 3}
+  ChangeRoleEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8619775815369814984
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8619775815369814984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4195985992248569767}
