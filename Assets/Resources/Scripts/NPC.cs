@@ -20,6 +20,7 @@ public class NPC : MonoBehaviour
     public ViewDirection viewDirection = ViewDirection.Down;
     public Transform viewPivot;
 
+    Animator animator;
 
     //path
     public bool hasPathToFollow;
@@ -33,6 +34,7 @@ public class NPC : MonoBehaviour
     {
         enemyInSight = false;
         enemies = new List<GameObject>();
+        animator = GetComponent<Animator>();
 
         //path
         if (hasPathToFollow)
@@ -147,16 +149,16 @@ public class NPC : MonoBehaviour
 
         //update viewDirection variable
 
-        if(degreeAngleToDirection < 0f)
+        if (degreeAngleToDirection < 0f)
         {
             degreeAngleToDirection += 360f;
         }
-        else if(degreeAngleToDirection > 360f)
+        else if (degreeAngleToDirection > 360f)
         {
             degreeAngleToDirection -= 360f;
         }
 
-        if(degreeAngleToDirection < 45f || degreeAngleToDirection >= 315f)
+        if (degreeAngleToDirection < 45f || degreeAngleToDirection >= 315f)
         {
             viewDirection = ViewDirection.Right;
         }
@@ -172,7 +174,9 @@ public class NPC : MonoBehaviour
         {
             viewDirection = ViewDirection.Down;
         }
-
+        if (animator) { 
+            animator.SetInteger("View Direction", (int)viewDirection);
+        }
 
     }
 
