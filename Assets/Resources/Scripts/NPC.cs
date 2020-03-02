@@ -15,6 +15,9 @@ public class NPC : MonoBehaviour
     public float speed;
     public Role role;
 
+    
+    public bool hasDirectionalView = false;
+    public ViewDirection viewDirection = ViewDirection.Down;
     public Transform viewPivot;
 
 
@@ -41,12 +44,18 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(hasPathToFollow)
+        if (hasDirectionalView)
+        {
+            rotateViewBasedOnViewDirection();
+            seeUsingRaycast();
+        }
+        
+        if (hasPathToFollow)
         {
             //move
             if(waypointIndex < waypoints.Length)
             {
-                rotateViewBasedOnVelocity(Vector3.MoveTowards(transform.position,
+                rotateViewBasedOnVelocityAndUpdateViewDirection(Vector3.MoveTowards(transform.position,
                                                          waypoints[waypointIndex].position,
                                                          speed * Time.deltaTime) - transform.position);
                 transform.position = Vector3.MoveTowards(transform.position,
@@ -62,14 +71,130 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void rotateViewBasedOnVelocity(Vector3 velocity)
+    private void seeUsingRaycast()
+    {
+        RaycastHit2D[] hits1 = Physics2D.RaycastAll(viewPivot.position, -viewPivot.up, 2f);
+        RaycastHit2D[] hits2 = Physics2D.RaycastAll(viewPivot.position, -viewPivot.up + viewPivot.right, 1.414f);
+        RaycastHit2D[] hits3 = Physics2D.RaycastAll(viewPivot.position, -viewPivot.up - viewPivot.right, 1.414f);
+
+        Debug.DrawRay(viewPivot.position, (-viewPivot.up) * 2f);
+        Debug.DrawRay(viewPivot.position, (-viewPivot.up + viewPivot.right) );
+        Debug.DrawRay(viewPivot.position, (-viewPivot.up - viewPivot.right) );
+
+
+        // the things that the ray runs into is in order of distance from NPC
+        // therefore, hits[0] may be itself, also if if one of the hits is a
+        // wall, I will stop looking for further hits after that because we
+        // don't want the NPCs to see through walls
+
+        // also I separated out each raycast because the lengths might not match
+
+        for(int i=0; i<hits1.Length; i++)
+        {
+            GameObject thingHit = hits1[i].collider.gameObject;
+            if (thingHit.layer == LayerMask.NameToLayer("Walls"))
+            {
+                break;
+            }
+            else if (thingHit.GetComponent<PlayerController>() && hits1[i].collider is CapsuleCollider2D) //hit player
+            {
+                NPCSeesPlayer(thingHit);
+            }
+        }
+        for (int i = 0; i < hits2.Length; i++)
+        {
+            GameObject thingHit = hits2[i].collider.gameObject;
+            if (thingHit.layer == LayerMask.NameToLayer("Walls"))
+            {
+                break;
+            }
+            else if (thingHit.GetComponent<PlayerController>() && hits2[i].collider is CapsuleCollider2D) //hit player
+            {
+                NPCSeesPlayer(thingHit);
+            }
+        } 
+        for (int i = 0; i < hits3.Length; i++)
+        {
+            GameObject thingHit = hits3[i].collider.gameObject;
+            if (thingHit.layer == LayerMask.NameToLayer("Walls"))
+            {
+                break;
+            }
+            else if (thingHit.GetComponent<PlayerController>() && hits3[i].collider is CapsuleCollider2D) //hit player
+            {
+                NPCSeesPlayer(thingHit);
+            }
+        }
+
+
+    }
+
+    private void NPCSeesPlayer(GameObject player)
+    {
+        if(player.GetComponent<PlayerController>().role == role || player.GetComponent<PlayerController>().role == Role.Player)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
+    }
+
+    private void rotateViewBasedOnVelocityAndUpdateViewDirection(Vector3 velocity)
     {
         float degreeAngleToDirection = Mathf.Atan2(velocity.y, velocity.x) * 180f / Mathf.PI;
 
         viewPivot.rotation = Quaternion.Euler(0, 0, degreeAngleToDirection);
+
+
+        //update viewDirection variable
+
+        if(degreeAngleToDirection < 0f)
+        {
+            degreeAngleToDirection += 360f;
+        }
+        else if(degreeAngleToDirection > 360f)
+        {
+            degreeAngleToDirection -= 360f;
+        }
+
+        if(degreeAngleToDirection < 45f || degreeAngleToDirection >= 315f)
+        {
+            viewDirection = ViewDirection.Right;
+        }
+        else if (degreeAngleToDirection < 135f && degreeAngleToDirection >= 45f)
+        {
+            viewDirection = ViewDirection.Up;
+        }
+        else if (degreeAngleToDirection < 225f && degreeAngleToDirection >= 135f)
+        {
+            viewDirection = ViewDirection.Left;
+        }
+        else if (degreeAngleToDirection < 315f && degreeAngleToDirection >= 225f)
+        {
+            viewDirection = ViewDirection.Down;
+        }
+
+
     }
 
-    
+    private void rotateViewBasedOnViewDirection()
+    {
+        if(viewDirection == ViewDirection.Right)
+        {
+            viewPivot.rotation = Quaternion.Euler(0, 0, 90f);
+        }
+        else if (viewDirection == ViewDirection.Up)
+        {
+            viewPivot.rotation = Quaternion.Euler(0, 0, 180f);
+        }
+        else if (viewDirection == ViewDirection.Left)
+        {
+            viewPivot.rotation = Quaternion.Euler(0, 0, 270f);
+        }
+        else //(viewDirection == ViewDirection.Down)
+        {
+            viewPivot.rotation = Quaternion.Euler(0, 0, 0f);
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

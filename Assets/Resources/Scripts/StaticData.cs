@@ -7,3 +7,11 @@ public enum Role
     Servant = 2,
     Noble = 3
 }
+
+public enum ViewDirection
+{
+    Right = 0,
+    Up = 1,
+    Left = 2,
+    Down = 3
+}

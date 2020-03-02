@@ -92,7 +92,6 @@ GameObject:
   - component: {fileID: 8278405921485400924}
   - component: {fileID: 3536184302887779468}
   - component: {fileID: 6593592942481392377}
-  - component: {fileID: 4988951216322111294}
   - component: {fileID: 7410882091679991929}
   m_Layer: 0
   m_Name: Guard
@@ -154,7 +153,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -5577045823138556125, guid: 6a4a5a9bbbf060c459696bddfa016d21,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -204,22 +203,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.52, y: 1.12}
   m_Direction: 0
---- !u!58 &4988951216322111294
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4427881809519127480}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.5
 --- !u!114 &7410882091679991929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,7 +217,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   role: 0
-  viewPivot: {fileID: 0}
+  hasDirectionalView: 1
+  viewDirection: 3
+  viewPivot: {fileID: 8179283164849422588}
   hasPathToFollow: 0
   waypoints: []
 --- !u!1001 &5756319497070282483
