@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public Sprite janitorSprite;
     public Sprite guardSprite;
     public Sprite servantSprite;
+    public Sprite nobleSprite;
 
     //role iterator
     private int roleIter;
@@ -191,6 +192,8 @@ public class PlayerController : MonoBehaviour
                 return janitorSprite;
             case Role.Servant:
                 return servantSprite;
+            case Role.Noble:
+                return nobleSprite;
             default:
                 return starterSprite;
         }

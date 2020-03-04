@@ -248,6 +248,8 @@ MonoBehaviour:
     type: 3}
   servantSprite: {fileID: -7349913420832987112, guid: 57f50174853f55541aa350592b18308a,
     type: 3}
+  nobleSprite: {fileID: 1174187168066455702, guid: fbff1afafea5e664ea00e2024c02a67a,
+    type: 3}
   ChangeRoleEvent:
     m_PersistentCalls:
       m_Calls: []
