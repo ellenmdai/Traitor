@@ -135,6 +135,8 @@ public class NPC : MonoBehaviour
     {
         if(player.GetComponent<PlayerController>().role == role || player.GetComponent<PlayerController>().role == Role.Player)
         {
+            GameStats.LevelDeaths++;
+            GameStats.TotalDeaths++;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         

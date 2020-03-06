@@ -21,6 +21,7 @@ public class ExitController : MonoBehaviour
     // For now though, just reload the scene
     void OnTriggerEnter2D(Collider2D other) {
         if(other is CapsuleCollider2D && other.gameObject.GetComponent<PlayerController>()) {
+            GameStats.LevelDeaths = 0;
             SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
         }
     }

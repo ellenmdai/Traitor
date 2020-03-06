@@ -108,16 +108,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //collision with another NPC
-        //check color to see if player reset
-        if (collision.gameObject.GetComponent<NPC>())
-        {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+    // private void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     //collision with another NPC
+    //     //check color to see if player reset
+    //     if (collision.gameObject.GetComponent<NPC>())
+    //     {
+    //         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //     }
 
-    }
+    // }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

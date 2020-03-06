@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4869146765744429594}
   - component: {fileID: 4869146765744429588}
   - component: {fileID: 4869146765744429589}
+  - component: {fileID: 8577588938158161475}
   m_Layer: 5
-  m_Name: Level
+  m_Name: LevelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +77,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 00
+  m_Text: level_name
+--- !u!114 &8577588938158161475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869146765744429595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78169786ccadb0241b244c87553c5434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4869146765841224991
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,8 +319,10 @@ GameObject:
   - component: {fileID: 4869146766596205062}
   - component: {fileID: 4869146766596205056}
   - component: {fileID: 4869146766596205057}
+  - component: {fileID: 2403919638220809183}
+  - component: {fileID: 5587259127660291271}
   m_Layer: 5
-  m_Name: TimeElapsed
+  m_Name: DeathCountText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,6 +387,30 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Time: '
+--- !u!114 &2403919638220809183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869146766596205063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ae627a9ef040e4d972a75ae6eff077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5587259127660291271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869146766596205063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78169786ccadb0241b244c87553c5434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4869146766722546418
 GameObject:
   m_ObjectHideFlags: 0
