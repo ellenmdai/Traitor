@@ -219,6 +219,8 @@ MonoBehaviour:
   speed: 4
   role: 0
   hasDirectionalView: 1
+  rotates: 0
+  rotateDelay: 1.5
   viewDirection: 3
   viewPivot: {fileID: 8179283164849422588}
   hasPathToFollow: 0
@@ -233,7 +235,7 @@ Animator:
   m_GameObject: {fileID: 4427881809519127480}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f035e52ec6c0424d80cd76817772bbd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

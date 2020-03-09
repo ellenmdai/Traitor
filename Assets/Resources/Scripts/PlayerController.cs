@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
     private List<GameObject> npcsInRange;
     private bool canChangeRole; // if cooldown is elapsed and player can change roles again
 
+    public Animator animator;
+    public ViewDirection viewDirection;
+
     //current Sprite
     public Sprite currSprite;
     Rigidbody2D rb;
@@ -55,35 +58,80 @@ public class PlayerController : MonoBehaviour
         closestRole = role;
         npcsInRange = new List<GameObject>();
         canChangeRole = true;
+
+        viewDirection = ViewDirection.Up;
+
+        animator = GetComponent<Animator>();
+
+        if (animator)
+        {
+            animator.SetBool("isMoving", false);
+            animator.SetInteger("View Direction", (int)viewDirection);
+            animator.SetInteger("Role", (int)role);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (animator)
+        {
+            animator.SetBool("isMoving", false);
+            animator.SetInteger("Role", (int)role);
+        }
+
         //directional movement with a-s-d-w
         Vector3 deltaVect = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.A))
         {
             Vector3 tempVect = new Vector3(-1, 0, 0);
             deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
+
+            viewDirection = ViewDirection.Left;
+            if (animator)
+            {
+                animator.SetBool("isMoving", true);
+                animator.SetInteger("View Direction", (int)viewDirection);
+            }
         }
         if (Input.GetKey(KeyCode.D))
         {
             Vector3 tempVect = new Vector3(1, 0, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
             deltaVect += tempVect.normalized * SPEED * Time.deltaTime;
+
+            viewDirection = ViewDirection.Right;
+            if (animator)
+            {
+                animator.SetBool("isMoving", true);
+                animator.SetInteger("View Direction", (int)viewDirection);
+            }
         }
         if (Input.GetKey(KeyCode.W))
         {
             Vector3 tempVect = new Vector3(0, 1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
             deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
+
+            viewDirection = ViewDirection.Up;
+            if (animator)
+            {
+                animator.SetBool("isMoving", true);
+                animator.SetInteger("View Direction", (int)viewDirection);
+            }
         }
         if (Input.GetKey(KeyCode.S))
         {
             Vector3 tempVect = new Vector3(0, -1, 0);
             tempVect = tempVect.normalized * SPEED * Time.deltaTime;
             deltaVect += tempVect.normalized* SPEED *Time.deltaTime;
+
+            viewDirection = ViewDirection.Down;
+            if (animator)
+            {
+                animator.SetBool("isMoving", true);
+                animator.SetInteger("View Direction", (int)viewDirection);
+            }
         }
         rb.MovePosition(transform.position + deltaVect);
         if (npcsInRange.Count != 0)
@@ -142,6 +190,12 @@ public class PlayerController : MonoBehaviour
     {
         role = closestRole;
         sr.sprite = getSprite(role);
+
+        if (animator)
+        {
+            animator.SetInteger("Role", (int)role);
+            
+        }
         // GetComponent<CapsuleCollider2D>().size = sr.sprite.bounds.size;
     }
     
