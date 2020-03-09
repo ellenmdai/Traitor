@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -2306975472109744758}
   - component: {fileID: 3704367932545380013}
   - component: {fileID: 9049446807886852717}
+  - component: {fileID: 1300195838926753775}
   m_Layer: 0
   m_Name: Servant
   m_TagString: Untagged
@@ -138,10 +139,31 @@ MonoBehaviour:
   speed: 4
   role: 2
   hasDirectionalView: 1
+  rotates: 0
+  rotateDelay: 1.5
   viewDirection: 3
   viewPivot: {fileID: 8739211388212281521}
   hasPathToFollow: 0
   waypoints: []
+--- !u!95 &1300195838926753775
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870594016421759864}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1418c144928141cba62fb8f1256e7c4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4713129270516106190
 GameObject:
   m_ObjectHideFlags: 0

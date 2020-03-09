@@ -17,6 +17,10 @@ public class NPC : MonoBehaviour
 
     
     public bool hasDirectionalView = false;
+
+    public bool rotates = false;
+    public float rotateDelay = 1.5f;
+
     public ViewDirection viewDirection = ViewDirection.Down;
     public Transform viewPivot;
 
@@ -36,11 +40,27 @@ public class NPC : MonoBehaviour
         enemies = new List<GameObject>();
         animator = GetComponent<Animator>();
 
+        if (rotates)
+        {
+            StartCoroutine("RotateTimer");
+        }
+
+        if (animator)
+        {
+            animator.SetInteger("View Direction", (int)viewDirection);
+            animator.SetBool("isMoving", false);
+        }
+
         //path
         if (hasPathToFollow)
         {
             transform.position = waypoints[waypointIndex].position;
+            if (animator)
+            {
+                animator.SetBool("isMoving", true);
+            }
         }
+
     }
 
     // Update is called once per frame
@@ -54,8 +74,9 @@ public class NPC : MonoBehaviour
         
         if (hasPathToFollow)
         {
+            
             //move
-            if(waypointIndex < waypoints.Length)
+            if (waypointIndex < waypoints.Length)
             {
                 rotateViewBasedOnVelocityAndUpdateViewDirection(Vector3.MoveTowards(transform.position,
                                                          waypoints[waypointIndex].position,
@@ -70,6 +91,40 @@ public class NPC : MonoBehaviour
                     if (waypointIndex == waypoints.Length) waypointIndex = 0;
                 }
             }
+        }
+    }
+
+    IEnumerator RotateTimer()
+    {
+        yield return new WaitForSeconds(rotateDelay);
+
+        RotateViewDirection();
+        rotateViewBasedOnViewDirection();
+
+        StartCoroutine("RotateTimer");
+    }
+
+    private void RotateViewDirection()
+    {
+        if (viewDirection == ViewDirection.Right)
+        {
+            viewDirection = ViewDirection.Up;
+        }
+        else if (viewDirection == ViewDirection.Up)
+        {
+            viewDirection = ViewDirection.Left;
+        }
+        else if (viewDirection == ViewDirection.Left)
+        {
+            viewDirection = ViewDirection.Down;
+        }
+        else //(viewDirection == ViewDirection.Down)
+        {
+            viewDirection = ViewDirection.Right;
+        }
+        if (animator)
+        {
+            animator.SetInteger("View Direction", (int)viewDirection);
         }
     }
 
@@ -144,6 +199,15 @@ public class NPC : MonoBehaviour
 
     private void rotateViewBasedOnVelocityAndUpdateViewDirection(Vector3 velocity)
     {
+        if (velocity.sqrMagnitude > 0f && animator)
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else if (velocity.sqrMagnitude <= 0f && animator)
+        {
+            animator.SetBool("isMoving", false);
+        }
+
         float degreeAngleToDirection = Mathf.Atan2(velocity.y, velocity.x) * 180f / Mathf.PI;
 
         viewPivot.rotation = Quaternion.Euler(0, 0, degreeAngleToDirection);
@@ -199,6 +263,10 @@ public class NPC : MonoBehaviour
         else //(viewDirection == ViewDirection.Down)
         {
             viewPivot.rotation = Quaternion.Euler(0, 0, 0f);
+        }
+        if (animator)
+        {
+            animator.SetInteger("View Direction", (int)viewDirection);
         }
     }
 

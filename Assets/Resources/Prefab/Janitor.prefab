@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 4473842776290534765}
   - component: {fileID: 2805083979457430315}
   - component: {fileID: 1549575713670027466}
+  - component: {fileID: 9167415298283022965}
   m_Layer: 0
   m_Name: Janitor
   m_TagString: Untagged
@@ -218,10 +219,31 @@ MonoBehaviour:
   speed: 4
   role: 1
   hasDirectionalView: 1
+  rotates: 0
+  rotateDelay: 1.5
   viewDirection: 3
   viewPivot: {fileID: 7925007256271109443}
   hasPathToFollow: 0
   waypoints: []
+--- !u!95 &9167415298283022965
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8846661156229854120}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b3948230c245c43868869430107c0f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &6024515278565014348
 PrefabInstance:
   m_ObjectHideFlags: 0
