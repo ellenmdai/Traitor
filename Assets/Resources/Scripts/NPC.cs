@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class NPC : MonoBehaviour
 {
 
-    
+    [SerializeField] public FieldOfView fieldOfView;
+
     bool enemyInSight;
     List<GameObject> enemies;
     
@@ -127,7 +128,23 @@ public class NPC : MonoBehaviour
             animator.SetInteger("View Direction", (int)viewDirection);
         }
     }
-
+    private void updateFieldOfViewAngle() {
+        Vector3 dir;
+        if (viewDirection == ViewDirection.Right) {
+            dir = new Vector3(1, 0);
+        }
+        else if (viewDirection == ViewDirection.Up) {
+            dir = new Vector3(0, 1);
+        }
+        else if (viewDirection == ViewDirection.Left) {
+            dir = new Vector3(-1, 0);
+        }
+        else //(viewDirection == ViewDirection.Down)
+        {
+            dir = new Vector3(0, -1);
+        }
+        fieldOfView.setDirection(dir);
+    }
     private void seeUsingRaycast()
     {
         RaycastHit2D[] hits1 = Physics2D.RaycastAll(viewPivot.position, -viewPivot.up, 2f);
