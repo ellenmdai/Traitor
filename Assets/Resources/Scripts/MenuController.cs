@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PauseMenuController : MonoBehaviour
+public class MenuController : MonoBehaviour
 {
-    public static PauseMenuController instance;
+    public static MenuController instance;
     GameObject mainMenuButton;
     GameObject instructionsButton;
 
@@ -20,9 +21,21 @@ public class PauseMenuController : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void onBackToMainClick() {
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void onInstructionsClick() {
         Debug.Log("open instructions");
         Instantiate(instructionsMenu, Vector3.zero, Quaternion.identity);
+    }
+
+    public void onPlayClick() {
+        SceneManager.LoadScene("Level 00");
+    }
+
+    public void onSceneSelectionClick() {
+        Debug.Log("Scene selection pressed; TODO");
     }
 
 
