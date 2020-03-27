@@ -39,10 +39,16 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Floors
+    uniqueID: 2093743223
+    locked: 0
+  - name: Walls
+    uniqueID: 2233147745
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: Player_NPC
     uniqueID: 3079349999
     locked: 0
   - name: Menu
