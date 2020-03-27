@@ -138,6 +138,8 @@ MonoBehaviour:
   speed: 0.02
   role: 3
   hasDirectionalView: 1
+  rotates: 0
+  rotateDelay: 1.5
   viewDirection: 3
   viewPivot: {fileID: 8620698673431693639}
   hasPathToFollow: 0
