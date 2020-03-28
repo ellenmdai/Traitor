@@ -84,7 +84,6 @@ public class PlayerController : MonoBehaviour
         float radiansToMouse = Mathf.Atan2(directionFromPlayerToMouse.y, directionFromPlayerToMouse.x);
         float angleToMouse = radiansToMouse * 180f / Mathf.PI;
         fieldOfView.setDirection(angleToMouse);
-        fieldOfView.setOrigin(transform.position);
 
         if (animator)
         {

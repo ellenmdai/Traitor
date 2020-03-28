@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class NPC : MonoBehaviour
 {
 
-    [SerializeField] public FieldOfView fieldOfView;
+    public FieldOfView fieldOfView;
 
     bool enemyInSight;
     List<GameObject> enemies;
@@ -53,15 +53,12 @@ public class NPC : MonoBehaviour
         }
 
         //path
-        if (hasPathToFollow)
-        {
+        if (hasPathToFollow) {
             transform.position = waypoints[waypointIndex].position;
-            if (animator)
-            {
+            if (animator) {
                 animator.SetBool("isMoving", true);
             }
         }
-
     }
 
     // Update is called once per frame
@@ -93,6 +90,7 @@ public class NPC : MonoBehaviour
                 }
             }
         }
+        updateFieldOfView();
     }
 
     IEnumerator RotateTimer()
@@ -128,7 +126,8 @@ public class NPC : MonoBehaviour
             animator.SetInteger("View Direction", (int)viewDirection);
         }
     }
-    private void updateFieldOfViewAngle() {
+
+    private void updateFieldOfView() {
         Vector3 dir;
         if (viewDirection == ViewDirection.Right) {
             dir = new Vector3(1, 0);
@@ -139,12 +138,13 @@ public class NPC : MonoBehaviour
         else if (viewDirection == ViewDirection.Left) {
             dir = new Vector3(-1, 0);
         }
-        else //(viewDirection == ViewDirection.Down)
+        else
         {
             dir = new Vector3(0, -1);
         }
         fieldOfView.setDirection(dir);
     }
+
     private void seeUsingRaycast()
     {
         RaycastHit2D[] hits1 = Physics2D.RaycastAll(viewPivot.position, -viewPivot.up, 2f);
