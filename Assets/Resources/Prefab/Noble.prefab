@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -2847856247227541513}
   - component: {fileID: 1956793322059458295}
   - component: {fileID: 6047293528798148939}
+  - component: {fileID: 3590562345450951195}
   m_Layer: 0
   m_Name: Noble
   m_TagString: Untagged
@@ -135,6 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe3a1fa8d3b54fae846a5c9d1d2ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fieldOfView: {fileID: 0}
   speed: 0.02
   role: 3
   hasDirectionalView: 1
@@ -144,6 +146,25 @@ MonoBehaviour:
   viewPivot: {fileID: 8620698673431693639}
   hasPathToFollow: 0
   waypoints: []
+--- !u!95 &3590562345450951195
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2619006083222235694}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd17ca94ca706db498837ffa5e1b075d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7852126284417186931
 GameObject:
   m_ObjectHideFlags: 0
