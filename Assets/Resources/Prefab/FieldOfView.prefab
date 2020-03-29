@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fov: 90
-  viewDistance: 10
+  viewDistance: 1
   rayCount: 90
 --- !u!23 &1425306900
 MeshRenderer:
