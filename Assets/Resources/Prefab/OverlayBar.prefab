@@ -845,7 +845,7 @@ MonoBehaviour:
   icon: {fileID: 4869146766722546382}
   player: {fileID: 0}
   cooldownTime: 2
-  maxTime: 10
+  maxTime: 5
   CooldownCompleteEvent:
     m_PersistentCalls:
       m_Calls:
