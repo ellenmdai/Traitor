@@ -9,10 +9,6 @@ public class NPC : MonoBehaviour
 
     public FieldOfView fieldOfView;
 
-    bool enemyInSight;
-    List<GameObject> enemies;
-    
-    
     public float speed;
     public Role role;
 
@@ -37,8 +33,6 @@ public class NPC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemyInSight = false;
-        enemies = new List<GameObject>();
         animator = GetComponent<Animator>();
 
         if (rotates)
@@ -59,6 +53,9 @@ public class NPC : MonoBehaviour
                 animator.SetBool("isMoving", true);
             }
         }
+
+        fieldOfView.npc = this;
+
     }
 
     // Update is called once per frame
@@ -67,7 +64,7 @@ public class NPC : MonoBehaviour
         if (hasDirectionalView)
         {
             rotateViewBasedOnViewDirection();
-            seeUsingRaycast();
+            
         }
         
         if (hasPathToFollow)
@@ -203,7 +200,7 @@ public class NPC : MonoBehaviour
 
     }
 
-    private void NPCSeesPlayer(GameObject player)
+    public void NPCSeesPlayer(GameObject player)
     {
         if(player.GetComponent<PlayerController>().role == role || player.GetComponent<PlayerController>().role == Role.Player)
         {
