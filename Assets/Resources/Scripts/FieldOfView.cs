@@ -22,6 +22,7 @@ public class FieldOfView : MonoBehaviour
 
     }
 
+    string lastHitLayer = "";
     // Update is called once per frame
     void LateUpdate() {
 
@@ -42,7 +43,7 @@ public class FieldOfView : MonoBehaviour
 
             Vector3 vertex = getVectorFromAngle(startingAngle) * viewDistance;
             RaycastHit2D[] hits = Physics2D.RaycastAll(origin, getVectorFromAngle(startingAngle), viewDistance);
-
+            //Debug.DrawRay(origin, getVectorFromAngle(startingAngle));
             if (hits.Length > 0) {
                 for (int j = 0; j < hits.Length; j++) {
                     GameObject thingHit = hits[j].collider.gameObject;
