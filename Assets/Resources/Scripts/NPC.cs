@@ -288,16 +288,9 @@ public class NPC : MonoBehaviour
     {
         //print("enter trigger");
         GameObject otherGO = collision.gameObject;
-        if (otherGO.GetComponent<PlayerController>())
+        if (otherGO.GetComponent<PlayerController>() && collision is CapsuleCollider2D)
         {
-            Role otherRole = otherGO.GetComponent<PlayerController>().role;
-            if (otherRole == role || otherRole == Role.Player)
-            {
-                if (collision is CapsuleCollider2D)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                }
-            }
+            NPCSeesPlayer(otherGO);
         }
         else if (otherGO.GetComponent<NPC>())
         {
@@ -309,16 +302,9 @@ public class NPC : MonoBehaviour
     {
         //print("stay trigger");
         GameObject otherGO = collision.gameObject;
-        if (otherGO.GetComponent<PlayerController>())
+        if (otherGO.GetComponent<PlayerController>() && collision is CapsuleCollider2D)
         {
-            Role otherRole = otherGO.GetComponent<PlayerController>().role;
-            if (otherRole == role || otherRole == Role.Player)
-            {
-                if (collision is CapsuleCollider2D)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                }
-            }
+            NPCSeesPlayer(otherGO);
         }
         else if (otherGO.GetComponent<NPC>())
         {

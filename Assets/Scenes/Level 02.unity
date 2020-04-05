@@ -1936,7 +1936,7 @@ PrefabInstance:
         type: 3}
       propertyPath: fieldOfView
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2134899373}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4d3d0344ea74424694179418e53574b, type: 3}
 --- !u!1 &477829157
@@ -5094,3 +5094,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a27cca5f49d444499a22dde7a36771, type: 3}
+--- !u!114 &2134899373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1808485363046563808, guid: b4d3d0344ea74424694179418e53574b,
+    type: 3}
+  m_PrefabInstance: {fileID: 448467051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0ea8d56ef0945ca83807ca3e92d1ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
