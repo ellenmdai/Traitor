@@ -31,12 +31,19 @@ public class MenuController : MonoBehaviour
     }
 
     public void onPlayClick() {
-        SceneManager.LoadScene("Level 00");
+        BlackFade.instance.AnimateFadeOut();
+        StartCoroutine(CompleteAnimationAndLoadLevel());
+        
     }
 
     public void onSceneSelectionClick() {
         Debug.Log("Scene selection pressed; TODO");
     }
 
+    IEnumerator CompleteAnimationAndLoadLevel()
+    {
+        yield return new WaitWhile(() => !BlackFade.instance.isFadeOutComplete());
+        SceneManager.LoadScene("Level 00");
+    }
 
 }
