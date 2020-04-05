@@ -23,6 +23,7 @@ public class ExitController : MonoBehaviour
         if(other is CapsuleCollider2D && other.gameObject.GetComponent<PlayerController>()) {
             GameStats.LevelDeaths = 0;
             //SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
+            SoundManager.instance.PlayWalkSound();
             BlackFade.instance.AnimateFadeOut();
             StartCoroutine(CompleteAnimationAndLoadLevel());
         }
