@@ -742,6 +742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionsMenu: {fileID: 7956003007312978969, guid: 42c4ea5abde48924facf7b6ae747d3e6,
     type: 3}
+  sceneSelectionMenu: {fileID: 4999703587019346659, guid: 274188d854e23ac418be3cf2882fb4bc,
+    type: 3}
 --- !u!114 &859024749
 MonoBehaviour:
   m_ObjectHideFlags: 0

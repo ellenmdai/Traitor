@@ -10,6 +10,7 @@ public class MenuController : MonoBehaviour
     GameObject instructionsButton;
 
     public GameObject instructionsMenu;
+    public GameObject sceneSelectionMenu;
 
     void Awake() {
         instance = this;
@@ -37,7 +38,7 @@ public class MenuController : MonoBehaviour
     }
 
     public void onSceneSelectionClick() {
-        Debug.Log("Scene selection pressed; TODO");
+        Instantiate(sceneSelectionMenu, Vector3.zero, Quaternion.identity);
     }
 
     IEnumerator CompleteAnimationAndLoadLevel()
