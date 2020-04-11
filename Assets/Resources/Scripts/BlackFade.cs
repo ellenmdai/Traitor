@@ -30,6 +30,7 @@ public class BlackFade : MonoBehaviour
     public void AnimateFadeOut()
     {
         animator.SetTrigger("FadeOut");
+        BackgroundMusicController.instance.FadeOutBackgroundMusic();
     }
 
     public void FadeOutComplete()
