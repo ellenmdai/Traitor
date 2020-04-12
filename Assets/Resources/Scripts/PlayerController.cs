@@ -75,16 +75,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*for debugging fieldOfView
-         * will delete when testing is done
-        */
-        Vector3 mousePosition = Input.mousePosition;
-        Vector3 mousePositionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
-        Vector3 directionFromPlayerToMouse = mousePositionInWorld - transform.position;
-        float radiansToMouse = Mathf.Atan2(directionFromPlayerToMouse.y, directionFromPlayerToMouse.x);
-        float angleToMouse = radiansToMouse * 180f / Mathf.PI;
-        fieldOfView.setDirection(angleToMouse);
-        fieldOfView.setOrigin(transform.position);
+        // /*for debugging fieldOfView
+        //  * will delete when testing is done
+        // */
+        // Vector3 mousePosition = Input.mousePosition;
+        // Vector3 mousePositionInWorld = Camera.main.ScreenToWorldPoint(mousePosition);
+        // Vector3 directionFromPlayerToMouse = mousePositionInWorld - transform.position;
+        // float radiansToMouse = Mathf.Atan2(directionFromPlayerToMouse.y, directionFromPlayerToMouse.x);
+        // float angleToMouse = radiansToMouse * 180f / Mathf.PI;
+        // fieldOfView.setDirection(angleToMouse);
+        // fieldOfView.setOrigin(transform.position);
 
         if (animator)
         {

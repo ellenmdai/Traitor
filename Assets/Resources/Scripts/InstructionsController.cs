@@ -40,7 +40,6 @@ public class InstructionsController : MonoBehaviour
     }
 
     public void onBackClick() {
-        Debug.Log("Close instructions");
         Destroy(gameObject);
     }
 

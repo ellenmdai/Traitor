@@ -22,7 +22,16 @@ public class ExitController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if(other is CapsuleCollider2D && other.gameObject.GetComponent<PlayerController>()) {
             GameStats.LevelDeaths = 0;
-            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
+            //SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
+            SoundManager.instance.PlayWalkSound();
+            BlackFade.instance.AnimateFadeOut();
+            StartCoroutine(CompleteAnimationAndLoadLevel());
         }
+    }
+
+    IEnumerator CompleteAnimationAndLoadLevel()
+    {
+        yield return new WaitWhile(() => !BlackFade.instance.isFadeOutComplete());
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings);
     }
 }
