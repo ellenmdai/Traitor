@@ -1,0 +1,2959 @@
+fileFormatVersion: 2
+guid: fced96a9f95234c179219df5fe99a451
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8961436577487745443
+    second: PC Computer - Stardew Valley - Furniture_0
+  - first:
+      213: -5226433798743629654
+    second: PC Computer - Stardew Valley - Furniture_1
+  - first:
+      213: 7148361250818185451
+    second: PC Computer - Stardew Valley - Furniture_2
+  - first:
+      213: -5163228797568015609
+    second: PC Computer - Stardew Valley - Furniture_3
+  - first:
+      213: -4019385352042156140
+    second: PC Computer - Stardew Valley - Furniture_4
+  - first:
+      213: 8707180104274704715
+    second: PC Computer - Stardew Valley - Furniture_5
+  - first:
+      213: -4351441168201141321
+    second: PC Computer - Stardew Valley - Furniture_6
+  - first:
+      213: -3117243464390257081
+    second: PC Computer - Stardew Valley - Furniture_7
+  - first:
+      213: 7703354620138806352
+    second: PC Computer - Stardew Valley - Furniture_8
+  - first:
+      213: 8325536296831937020
+    second: PC Computer - Stardew Valley - Furniture_9
+  - first:
+      213: 8724163494227021267
+    second: PC Computer - Stardew Valley - Furniture_10
+  - first:
+      213: -6908273670269031703
+    second: PC Computer - Stardew Valley - Furniture_11
+  - first:
+      213: 4121839617290601678
+    second: PC Computer - Stardew Valley - Furniture_12
+  - first:
+      213: -6940590158890758996
+    second: PC Computer - Stardew Valley - Furniture_13
+  - first:
+      213: 5839223402661636721
+    second: PC Computer - Stardew Valley - Furniture_14
+  - first:
+      213: -183287117070715006
+    second: PC Computer - Stardew Valley - Furniture_15
+  - first:
+      213: 6085914255859038187
+    second: PC Computer - Stardew Valley - Furniture_16
+  - first:
+      213: -645543498656665504
+    second: PC Computer - Stardew Valley - Furniture_17
+  - first:
+      213: 208904567587936830
+    second: PC Computer - Stardew Valley - Furniture_18
+  - first:
+      213: -7823729336861890206
+    second: PC Computer - Stardew Valley - Furniture_19
+  - first:
+      213: -4608934767278890310
+    second: PC Computer - Stardew Valley - Furniture_20
+  - first:
+      213: 2830103199216150325
+    second: PC Computer - Stardew Valley - Furniture_21
+  - first:
+      213: 4006723635785971239
+    second: PC Computer - Stardew Valley - Furniture_22
+  - first:
+      213: 3319252842454737734
+    second: PC Computer - Stardew Valley - Furniture_23
+  - first:
+      213: 634601145286617654
+    second: PC Computer - Stardew Valley - Furniture_24
+  - first:
+      213: 5859105245000588691
+    second: PC Computer - Stardew Valley - Furniture_25
+  - first:
+      213: 941745021125434945
+    second: PC Computer - Stardew Valley - Furniture_26
+  - first:
+      213: 3165193120805057650
+    second: PC Computer - Stardew Valley - Furniture_27
+  - first:
+      213: 4532534878471659569
+    second: PC Computer - Stardew Valley - Furniture_28
+  - first:
+      213: -4180091939665079922
+    second: PC Computer - Stardew Valley - Furniture_29
+  - first:
+      213: 6835991874187869780
+    second: PC Computer - Stardew Valley - Furniture_30
+  - first:
+      213: -5505316099485966892
+    second: PC Computer - Stardew Valley - Furniture_31
+  - first:
+      213: 8938438459963536676
+    second: PC Computer - Stardew Valley - Furniture_32
+  - first:
+      213: 5814624989926183078
+    second: PC Computer - Stardew Valley - Furniture_33
+  - first:
+      213: 507969274913662008
+    second: PC Computer - Stardew Valley - Furniture_34
+  - first:
+      213: -8379425481372078722
+    second: PC Computer - Stardew Valley - Furniture_35
+  - first:
+      213: -2740733131249046375
+    second: PC Computer - Stardew Valley - Furniture_36
+  - first:
+      213: -2407572599825334254
+    second: PC Computer - Stardew Valley - Furniture_37
+  - first:
+      213: 8543048425777383611
+    second: PC Computer - Stardew Valley - Furniture_38
+  - first:
+      213: -4567434313326923178
+    second: PC Computer - Stardew Valley - Furniture_39
+  - first:
+      213: -4478226946632537420
+    second: PC Computer - Stardew Valley - Furniture_40
+  - first:
+      213: -4308331099067658863
+    second: PC Computer - Stardew Valley - Furniture_41
+  - first:
+      213: 3041757477941775105
+    second: PC Computer - Stardew Valley - Furniture_42
+  - first:
+      213: 5550261701816861316
+    second: PC Computer - Stardew Valley - Furniture_43
+  - first:
+      213: 321578806949704640
+    second: PC Computer - Stardew Valley - Furniture_44
+  - first:
+      213: 4681822383077156658
+    second: PC Computer - Stardew Valley - Furniture_45
+  - first:
+      213: 6235014150786234592
+    second: PC Computer - Stardew Valley - Furniture_46
+  - first:
+      213: -380910096519210485
+    second: PC Computer - Stardew Valley - Furniture_47
+  - first:
+      213: 5381654721517163718
+    second: PC Computer - Stardew Valley - Furniture_48
+  - first:
+      213: 3451218315066583592
+    second: PC Computer - Stardew Valley - Furniture_49
+  - first:
+      213: 7960834233127461032
+    second: PC Computer - Stardew Valley - Furniture_50
+  - first:
+      213: -4812791417232534013
+    second: PC Computer - Stardew Valley - Furniture_51
+  - first:
+      213: -4826033251810980011
+    second: PC Computer - Stardew Valley - Furniture_52
+  - first:
+      213: -5977537977219095171
+    second: PC Computer - Stardew Valley - Furniture_53
+  - first:
+      213: 1772871277444878354
+    second: PC Computer - Stardew Valley - Furniture_54
+  - first:
+      213: -6423501921676232481
+    second: PC Computer - Stardew Valley - Furniture_55
+  - first:
+      213: -7782713685380023123
+    second: PC Computer - Stardew Valley - Furniture_56
+  - first:
+      213: 1514673032310330843
+    second: PC Computer - Stardew Valley - Furniture_57
+  - first:
+      213: -6521379450544288384
+    second: PC Computer - Stardew Valley - Furniture_58
+  - first:
+      213: -5813234017209235696
+    second: PC Computer - Stardew Valley - Furniture_59
+  - first:
+      213: 7385266983244516983
+    second: PC Computer - Stardew Valley - Furniture_60
+  - first:
+      213: 867054432247306903
+    second: PC Computer - Stardew Valley - Furniture_61
+  - first:
+      213: 8984116154171898172
+    second: PC Computer - Stardew Valley - Furniture_62
+  - first:
+      213: -7203451439545685049
+    second: PC Computer - Stardew Valley - Furniture_63
+  - first:
+      213: 4354019905524453175
+    second: PC Computer - Stardew Valley - Furniture_64
+  - first:
+      213: 8358964621590585985
+    second: PC Computer - Stardew Valley - Furniture_65
+  - first:
+      213: -5089804117029596499
+    second: PC Computer - Stardew Valley - Furniture_66
+  - first:
+      213: -4223911628630246545
+    second: PC Computer - Stardew Valley - Furniture_67
+  - first:
+      213: -5366141605008705128
+    second: PC Computer - Stardew Valley - Furniture_68
+  - first:
+      213: 7311368533026008798
+    second: PC Computer - Stardew Valley - Furniture_69
+  - first:
+      213: 3482559107133885452
+    second: PC Computer - Stardew Valley - Furniture_70
+  - first:
+      213: 2799247687874306476
+    second: PC Computer - Stardew Valley - Furniture_71
+  - first:
+      213: 1565740011715400685
+    second: PC Computer - Stardew Valley - Furniture_72
+  - first:
+      213: -3667723285030702449
+    second: PC Computer - Stardew Valley - Furniture_73
+  - first:
+      213: 827519119558916183
+    second: PC Computer - Stardew Valley - Furniture_74
+  - first:
+      213: -2109697235977746881
+    second: PC Computer - Stardew Valley - Furniture_75
+  - first:
+      213: 9011964839270800809
+    second: PC Computer - Stardew Valley - Furniture_76
+  - first:
+      213: -1307756413271256948
+    second: PC Computer - Stardew Valley - Furniture_77
+  - first:
+      213: 7456344858841851263
+    second: PC Computer - Stardew Valley - Furniture_78
+  - first:
+      213: -7608856624826820089
+    second: PC Computer - Stardew Valley - Furniture_79
+  - first:
+      213: -8141912426290249672
+    second: PC Computer - Stardew Valley - Furniture_80
+  - first:
+      213: 4454592551476520406
+    second: PC Computer - Stardew Valley - Furniture_81
+  - first:
+      213: 8861094724647035008
+    second: PC Computer - Stardew Valley - Furniture_82
+  - first:
+      213: -8994876587924922166
+    second: PC Computer - Stardew Valley - Furniture_83
+  - first:
+      213: 1196939649385358316
+    second: PC Computer - Stardew Valley - Furniture_84
+  - first:
+      213: -4122335881585187357
+    second: PC Computer - Stardew Valley - Furniture_85
+  - first:
+      213: 8814382047427008301
+    second: PC Computer - Stardew Valley - Furniture_86
+  - first:
+      213: -2619027571598452751
+    second: PC Computer - Stardew Valley - Furniture_87
+  - first:
+      213: -9119814078234438423
+    second: PC Computer - Stardew Valley - Furniture_88
+  - first:
+      213: -8393332638477514434
+    second: PC Computer - Stardew Valley - Furniture_89
+  - first:
+      213: -7615164079090903536
+    second: PC Computer - Stardew Valley - Furniture_90
+  - first:
+      213: 2169927662915155515
+    second: PC Computer - Stardew Valley - Furniture_91
+  - first:
+      213: -1968747099905603248
+    second: PC Computer - Stardew Valley - Furniture_92
+  - first:
+      213: 2847228951588373278
+    second: PC Computer - Stardew Valley - Furniture_93
+  - first:
+      213: 9204286936326074774
+    second: PC Computer - Stardew Valley - Furniture_94
+  - first:
+      213: -366324757281587294
+    second: PC Computer - Stardew Valley - Furniture_95
+  - first:
+      213: -5241547196019700296
+    second: PC Computer - Stardew Valley - Furniture_96
+  - first:
+      213: -2833513544035861069
+    second: PC Computer - Stardew Valley - Furniture_97
+  - first:
+      213: -7235796560926027553
+    second: PC Computer - Stardew Valley - Furniture_98
+  - first:
+      213: 8000643551880628302
+    second: PC Computer - Stardew Valley - Furniture_99
+  - first:
+      213: -8529357845024609323
+    second: PC Computer - Stardew Valley - Furniture_100
+  - first:
+      213: -2804207747758937460
+    second: PC Computer - Stardew Valley - Furniture_101
+  - first:
+      213: 7815074335227863622
+    second: PC Computer - Stardew Valley - Furniture_102
+  - first:
+      213: 1745273180374757173
+    second: PC Computer - Stardew Valley - Furniture_103
+  - first:
+      213: 3029371782220778369
+    second: PC Computer - Stardew Valley - Furniture_104
+  - first:
+      213: -7858914696094971796
+    second: PC Computer - Stardew Valley - Furniture_105
+  - first:
+      213: -1168881123395681542
+    second: PC Computer - Stardew Valley - Furniture_106
+  - first:
+      213: 7783415659865051132
+    second: PC Computer - Stardew Valley - Furniture_107
+  - first:
+      213: -6762005326248966798
+    second: PC Computer - Stardew Valley - Furniture_108
+  - first:
+      213: -5659343121980398772
+    second: PC Computer - Stardew Valley - Furniture_109
+  - first:
+      213: -1916567270851930900
+    second: PC Computer - Stardew Valley - Furniture_110
+  - first:
+      213: 6310809509406855385
+    second: PC Computer - Stardew Valley - Furniture_111
+  - first:
+      213: -1682197858403172484
+    second: PC Computer - Stardew Valley - Furniture_112
+  - first:
+      213: -6480364261103067204
+    second: PC Computer - Stardew Valley - Furniture_113
+  - first:
+      213: 7976324417439139057
+    second: PC Computer - Stardew Valley - Furniture_114
+  - first:
+      213: 1503862649212829798
+    second: PC Computer - Stardew Valley - Furniture_115
+  - first:
+      213: 3249170000059740416
+    second: PC Computer - Stardew Valley - Furniture_116
+  - first:
+      213: 8805387988163457675
+    second: PC Computer - Stardew Valley - Furniture_117
+  - first:
+      213: -7586447733868206730
+    second: PC Computer - Stardew Valley - Furniture_118
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 288
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85398211c8664428190392849b5fa24e
+      internalID: 8961436577487745443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 993
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28b1165eef86451cb1926155ea513ae
+      internalID: -5226433798743629654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 993
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96daaa49c779e4814baf99bc42971de4
+      internalID: 7148361250818185451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 960
+        width: 191
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca0f0792176a44d38e6d446adf4e6b8
+      internalID: -5163228797568015609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 960
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf79cc57ba8fa4a67b3f4d388c173529
+      internalID: -4019385352042156140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 960
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ac98f63c0141ac8d6acca64604e7d
+      internalID: 8707180104274704715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91e8b9a9eeab4ae383abbb002c1d4b7
+      internalID: -4351441168201141321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3512f5850b9944027876aa512f84a337
+      internalID: -3117243464390257081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 930
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86f3e31b2c904219a6fe12d93d0fb41
+      internalID: 7703354620138806352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 848
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191ebd198fe2d497a902d9602fbb53eb
+      internalID: 8325536296831937020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 896
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf2a632d1e334d99aecb9437324de11
+      internalID: 8724163494227021267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 848
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4396e23479704c38b7fecdee7f2e997
+      internalID: -6908273670269031703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 896
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cfbb137d24b43af9934bcde477c6ef
+      internalID: 4121839617290601678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 848
+        width: 47
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3771b83c8bb944a8980479b56969ed8f
+      internalID: -6940590158890758996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5e2bacaf15e41a7bc8f8cb26dc230f
+      internalID: 5839223402661636721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397623478c9c5479e91a7ceadbb8225d
+      internalID: -183287117070715006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d53c11dc5fcc43f9aec7e4a2e77cf78
+      internalID: 6085914255859038187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 848
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec1477757994c468faffbd905ffc69
+      internalID: -645543498656665504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 848
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4257fedb76d174c74ae0bb5bbda0a7e0
+      internalID: 208904567587936830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce906b5c8ee6149e19dee13d437e9027
+      internalID: -7823729336861890206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 848
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f473782ad594ebcb63c9a41e82c1f9
+      internalID: -4608934767278890310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be82058a5efa34128ae4576b0761bbca
+      internalID: 2830103199216150325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bc1a4a067e14d0d9f5a16479143b3a
+      internalID: 4006723635785971239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 848
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758ad1bbe578e4912917c98d942cabe1
+      internalID: 3319252842454737734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f2cce561df419e83179d0a926b148
+      internalID: 634601145286617654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 848
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573c1395f816473f83f3a2ce009411c
+      internalID: 5859105245000588691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 848
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7312806033342d88f9dceb5d51482e
+      internalID: 941745021125434945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d79c7d03abd4a27bcbcdee093568c5
+      internalID: 3165193120805057650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84705ee3a979f430c8ce19af6c82e4bf
+      internalID: 4532534878471659569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 784
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f02fe5137d394f158ff072876887e89
+      internalID: -4180091939665079922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 784
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e21c0140cb44c6e9047a59fa64b45c
+      internalID: 6835991874187869780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 720
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0061a1d8364443d7aa7926c9caec218
+      internalID: -5505316099485966892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 784
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc80d89ad76534a838e706ac76377ce7
+      internalID: 8938438459963536676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c310442d9e20343da813f97e151e9d87
+      internalID: 5814624989926183078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 768
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a9bc0b76e244fab75d8e2760f26d2
+      internalID: 507969274913662008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 784
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76ff022f9b964b4eb71e2f18e3e6ee3
+      internalID: -8379425481372078722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 784
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57ed92a090cc472d9104044cc4a9798
+      internalID: -2740733131249046375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 768
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a41c2eefebc4bb4a82d10683f8604c
+      internalID: -2407572599825334254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 784
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc8557e992f4ecb98c8625e278d3c2
+      internalID: 8543048425777383611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86446f2259f2447f29fbf1472179642a
+      internalID: -4567434313326923178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 736
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763a61319d9414dbe801021be2e8c972
+      internalID: -4478226946632537420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 736
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8dd75439c804d09aec0ecdfdc23c24
+      internalID: -4308331099067658863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_42
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 736
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7555073eb8b4d499ca8e1f784e47f7
+      internalID: 3041757477941775105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 736
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc727356daf44a7a94324698baca3cb
+      internalID: 5550261701816861316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_44
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 720
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f461ff143294721bc7d7421d5f86b8
+      internalID: 321578806949704640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29895fd49b89c4a49ba67b7268f52664
+      internalID: 4681822383077156658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_46
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 736
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daca1932ea0944638d729d742f13692
+      internalID: 6235014150786234592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4005b17955940a8879cdc28a0f4131
+      internalID: -380910096519210485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 79
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206baf6b489ce46ae905c5de28bf7946
+      internalID: 5381654721517163718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 624
+        width: 79
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc7a86db4b3c41db8bee7ed8293b0b6
+      internalID: 3451218315066583592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 624
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bfc285aeac34cd0a0c177091d2edd9
+      internalID: 7960834233127461032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 128
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2897f775813da47b6b1c9af8f3222ed6
+      internalID: -4812791417232534013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 448
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c18239633349cba8b282f78adbc8a
+      internalID: -4826033251810980011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 336
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c45b109d0634d199d10151a8d4d282
+      internalID: -5977537977219095171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c64eafca78b43298d367647f98ca80
+      internalID: 1772871277444878354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_55
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 464
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089b7404f17694a8b8bd9038ee8dd3ea
+      internalID: -6423501921676232481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9269d669a04f0fb06a3f51549eff6
+      internalID: -7782713685380023123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 224
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f54353be07449aa9289ac9e054b0c
+      internalID: 1514673032310330843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b54bec2c88c5433e9b6d508023587f2
+      internalID: -6521379450544288384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 304
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac64531e09bde4abfa4889dab2fde936
+      internalID: -5813234017209235696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c2bedbd20b44db9544b1714a96261
+      internalID: 7385266983244516983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_61
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 256
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f342f107e31fb416ab36038e2064eb2c
+      internalID: 867054432247306903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c73e59606d0a4368bdf75af3dd67bd3
+      internalID: 8984116154171898172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd1b15dc6954942ab04aa64aaa14eb
+      internalID: -7203451439545685049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 225
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9db71652c1754bd294b8f31d860aeaa
+      internalID: 4354019905524453175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_65
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf684a847440048778dbc74a94da1c0e
+      internalID: 8358964621590585985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_66
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 224
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b416da2599ed44258ab4153fffad900
+      internalID: -5089804117029596499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 225
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d19f3e8264e648deb3b7d90e45ab868
+      internalID: -4223911628630246545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_68
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 224
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5019b8612444a2bac46da8ffe0a10
+      internalID: -5366141605008705128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 226
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b34d969eae64333a8ab336a04a4071
+      internalID: 7311368533026008798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_70
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 225
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b687f5ea9d94da4bafb356088386a2
+      internalID: 3482559107133885452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_71
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 227
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417bf09dd9f184ed1895081e7776b42f
+      internalID: 2799247687874306476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 227
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecbb4e77b0304418b601a2fca888acb
+      internalID: 1565740011715400685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_73
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 227
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce8197b54c7f449daf3437e616a75ad
+      internalID: -3667723285030702449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_74
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 226
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a5ce515786143e59790b0e974a7b20
+      internalID: 827519119558916183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e11791e686f43f7a5757a118134181
+      internalID: -2109697235977746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_76
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 200
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40e01d7346dc4e9bb24166831bf6af6
+      internalID: 9011964839270800809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_77
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 204
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0611de85d8cde4430af9d6ef2373c4ab
+      internalID: -1307756413271256948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 196
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffbdcb5c6c47421c860ba1d052d6f12
+      internalID: 7456344858841851263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_79
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 200
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e8ae4f6907d40ec839c5ad1f37c879
+      internalID: -7608856624826820089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16510bd650ac4e9f8fa97fa93fdf632
+      internalID: -8141912426290249672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_81
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 192
+        width: 198
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fad792f0f954c9aa70e74cd12e5138
+      internalID: 4454592551476520406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_82
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 193
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6337b01cf65453599fe4b64f581d3e
+      internalID: 8861094724647035008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_83
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 180
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7812f653aa402da4a5e86e13782b6
+      internalID: -8994876587924922166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_84
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 193
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994b74996da164323a408d15d895e731
+      internalID: 1196939649385358316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_85
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 180
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c516635c18c4c88beb58d26494a1b2
+      internalID: -4122335881585187357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_86
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9597c5fb2658d4fa897f6baec3be6ca9
+      internalID: 8814382047427008301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_87
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 202
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c82d6f6406b94ad686aa35941ba8bd9
+      internalID: -2619027571598452751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa188ae716194a1cb16fb8af8c7f513
+      internalID: -9119814078234438423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_89
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c44183e49994694b3f4059734fbd18
+      internalID: -8393332638477514434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398be280f1daf4617801a80fccfc074c
+      internalID: -7615164079090903536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_91
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 163
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406f79d75dc624e2787912fc53771b1b
+      internalID: 2169927662915155515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_92
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98634d232de74e758870e9a722ddb50
+      internalID: -1968747099905603248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_93
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 128
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2881e37cc34d747029c26105ac377bdc
+      internalID: 2847228951588373278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_94
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 130
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac3e724b90d649619f59e451af75b6a
+      internalID: 9204286936326074774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_95
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 130
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95e4efcd85964f6c8267ef99aa3c0a4
+      internalID: -366324757281587294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_96
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653b95eaa74c4bb59ff0dcab0c503e1
+      internalID: -5241547196019700296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642bb9985c4ee452888ab6e81fb79745
+      internalID: -2833513544035861069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_98
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 137
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5469a57ef534240a3adb5d7b37a938
+      internalID: -7235796560926027553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_99
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 145
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a2e6bd94d314313a5913c844f1dae6
+      internalID: 8000643551880628302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_100
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 129
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1a8e72ffe624982b895f4ea034f3e2
+      internalID: -8529357845024609323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_101
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 112
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa841de66da4df3a9c51f4688ccc55
+      internalID: -2804207747758937460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_102
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 112
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b757cbb0d8447068a16658a5874d47
+      internalID: 7815074335227863622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_103
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 117
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd886377374943d99278ac86aa8be8f
+      internalID: 1745273180374757173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_104
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 112
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53adffc3f824955a53075fb6765324
+      internalID: 3029371782220778369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_105
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 116
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ffa3020a9c6478fb0a9db0d8fef65d
+      internalID: -7858914696094971796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_106
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 120
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1df4217478c4fe68f264e4df77b485
+      internalID: -1168881123395681542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 86
+        width: 288
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b71608c2974d20b2618204f4eaea7
+      internalID: 7783415659865051132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_108
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 36
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f115a1577c984cf3a6f9c11d80bd3c7
+      internalID: -6762005326248966798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_109
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 54
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a380089495ac4094b97622916414a11
+      internalID: -5659343121980398772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_110
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 49
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131cae2b675734904955f30f1166e6b3
+      internalID: -1916567270851930900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_111
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 36
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27541c777985a49429398e10c760313e
+      internalID: 6310809509406855385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_112
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 59
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35bd7b6251ac4eb188e7ca660448bfa
+      internalID: -1682197858403172484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_113
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 58
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442916a051eed4f33af881223b03b395
+      internalID: -6480364261103067204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_114
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 49
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529bc03264e2d4996965a7e6b52f8b5b
+      internalID: 7976324417439139057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_115
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 56
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcbc8bfd44ad4340a7561aa444735f6
+      internalID: 1503862649212829798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_116
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 53
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e40ba15239264eb280d361ea8c9a0e3
+      internalID: 3249170000059740416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_117
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f705c0610d29415d99d697a51f8f431
+      internalID: 8805387988163457675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Furniture_118
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c8603922b984b01aac15d15b3328e0
+      internalID: -7586447733868206730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

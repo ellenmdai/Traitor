@@ -44,6 +44,7 @@ public class MenuController : MonoBehaviour
     IEnumerator CompleteAnimationAndLoadLevel()
     {
         yield return new WaitWhile(() => !BlackFade.instance.isFadeOutComplete());
+        GameStats.StartTime = Epoch.Current();
         SceneManager.LoadScene("Level 00");
     }
 

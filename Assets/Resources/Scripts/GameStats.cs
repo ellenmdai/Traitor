@@ -6,7 +6,7 @@ using UnityEngine;
 // for tracking player deaths, 
 public class GameStats
 {
-    private static int levelDeaths = 0, totalDeaths = 0;
+    private static int levelDeaths = 0, totalDeaths = 0, startTime = 0, endTime = 1;
 
     public static int LevelDeaths {
         get {
@@ -23,6 +23,27 @@ public class GameStats
         }
         set {
             totalDeaths = value;
+        }
+    }
+
+    public static int StartTime {
+        get {
+            return startTime;
+        }
+        set {
+            startTime = value;
+        }
+    }
+
+    public static int EndTime
+    {
+        get
+        {
+            return endTime;
+        }
+        set
+        {
+            endTime = value;
         }
     }
 }

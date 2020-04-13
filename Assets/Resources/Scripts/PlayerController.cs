@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool canChangeRole; // if cooldown is elapsed and player can change roles again
 
     public Animator animator;
-    public ViewDirection viewDirection;
+    public ViewDirection viewDirection = ViewDirection.Up;
 
     //current Sprite
     public Sprite currSprite;
@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
     //
     public UnityEvent ChangeRoleEvent; // notify timers to count down
 
+    public bool GameComplete = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +62,7 @@ public class PlayerController : MonoBehaviour
         npcsInRange = new List<GameObject>();
         canChangeRole = true;
 
-        viewDirection = ViewDirection.Up;
+        //viewDirection = ViewDirection.Up;
 
         animator = GetComponent<Animator>();
 
@@ -70,6 +72,7 @@ public class PlayerController : MonoBehaviour
             animator.SetInteger("View Direction", (int)viewDirection);
             animator.SetInteger("Role", (int)role);
         }
+
     }
 
     // Update is called once per frame
@@ -90,6 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isMoving", false);
             animator.SetInteger("Role", (int)role);
+            animator.SetInteger("View Direction", (int)viewDirection);
         }
 
         //directional movement with a-s-d-w
@@ -165,6 +169,14 @@ public class PlayerController : MonoBehaviour
                 canChangeRole = false;
                 ChangeRoleEvent.Invoke();
             }
+        }
+
+        if (GameComplete)
+        {
+            viewDirection = ViewDirection.Down;
+            animator.SetBool("isMoving", false);
+            animator.SetInteger("View Direction", (int)viewDirection);
+            transform.position = Vector3.zero;
         }
     }
 

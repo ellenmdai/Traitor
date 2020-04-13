@@ -265,7 +265,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 1667060783
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &3066927237017932856
 MonoBehaviour:
@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionsMenu: {fileID: 7956003007312978969, guid: 42c4ea5abde48924facf7b6ae747d3e6,
     type: 3}
+  sceneSelectionMenu: {fileID: 0}
 --- !u!1 &3066927237613130443
 GameObject:
   m_ObjectHideFlags: 0
