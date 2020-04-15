@@ -25,19 +25,17 @@ public class MenuController : MonoBehaviour
     public void onBackToMainClick() {
         Debug.Log("back to main");
         Time.timeScale = 1f;
-        BlackFade.instance.AnimateFadeOut();
+        BlackFade.instance.AnimateFadeOut(true);
         StartCoroutine(CompleteAnimationAndLoadMainMenu());
     }
 
     public void onInstructionsClick() {
         Debug.Log("open instructions");
-        Time.timeScale = 1f;
         Instantiate(instructionsMenu, Vector3.zero, Quaternion.identity);
-        Time.timeScale = 0f;
     }
 
     public void onPlayClick() {
-        BlackFade.instance.AnimateFadeOut();
+        BlackFade.instance.AnimateFadeOut(true);
         StartCoroutine(CompleteAnimationAndLoadLevel());
     }
 

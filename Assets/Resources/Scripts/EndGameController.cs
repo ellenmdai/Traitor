@@ -32,7 +32,7 @@ public class EndGameController : MonoBehaviour
             other.gameObject.transform.position = Vector3.zero;
             other.gameObject.GetComponent<PlayerController>().viewDirection = ViewDirection.Down;
             other.gameObject.GetComponent<PlayerController>().GameComplete = true;
-            BlackFade.instance.AnimateFadeOut();
+            BlackFade.instance.AnimateFadeOut(false);
             StartCoroutine(CompleteAnimationAndShowCredits());
         }
     }
