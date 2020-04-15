@@ -728,8 +728,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReturnToMMText
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4577346813145244175, guid: 55390ebf52bcd0f43996101480148555, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55390ebf52bcd0f43996101480148555, type: 3}
 --- !u!1 &513698440
 GameObject:

@@ -47,6 +47,8 @@ public class MenuController : MonoBehaviour
     {
         yield return new WaitWhile(() => !BlackFade.instance.isFadeOutComplete());
         GameStats.StartTime = Epoch.Current();
+        GameStats.TotalDeaths = 0;
+        GameStats.LevelDeaths = 0;
         SceneManager.LoadScene("Level 00");
     }
 
